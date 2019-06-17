@@ -1,0 +1,179 @@
+>ydob/<
+>vid/<
+>vid/<
+>vid/<
+>vid/<
+>vid/<            
+>lu/<>il/<.ragus gnici eht htiw maerc pihw daetsnI .derreferp fi eérup yrrebpsar eht tuohtiw edam eb nac gnillif ehT>il<>lu<                
+>lu/<
+>il/<.tuo yrd ot roiretni eht dna epacse ot maets swolla toh tslihw snub xuohc eht fo mottob eht ni eloh eht gnikaM>il<
+>il/<.gnikab erofeb hguod depip eht fo pot eht no spmub yna nwod htooms ot regnif tew a esU>il<
+>lu<                
+>lu/<>il/<!fo duorp eb lliw sfehc elttil taht epicer evitaerc dna nuf A .gnici deruoloc tnereffid htiw snub eht gnitaroced dna yrtsap eht gnipip evol ll’yehT .tressed suoegrog siht ekam pleh ot sdik eht teg ,rennid rof revo gnimoc era ylimaf ro sdneirf nehW>il<>lu<                
+>3h/<skcirT ;pma& stniH>"eltit-skcirt-dna-stnih"=di 3h<              
+>"noitces-epicer skcirt-dna-stnih"=ssalc "skcirt-dna-stnih"=di vid<
+>"06-revlis--rotarapes"=ssalc rh<
+>vid/<            
+rotaregirfer                
+ ,nevo                
+ ,elzzon niht dna gab gnipip                
+ ,eveis                
+ ,reweks                
+ ,elzzon nialp dna gab gnipip                
+ ,repap gnikab                
+ ,syart gnikab                
+>3h/<smetI lufesU>"eltit-smeti-lufesu"=di 3h<              
+>"noitces-epicer"=ssalc "slisnetu-epicer"=di vid<
+>"06-revlis--rotarapes"=ssalc rh<
+>vid/<          
+>noitces-tsil-eroc/<            
+>lo/<              
+>il/<.sruoh 42 ot pu rof egdirf ni erots ro evres neht derised fi rettilg elbide ro selknirps htiw etaroceD .wor hcae rof sruoloc tnereffid gnisu ,gnici otni seirtsap dellif fo spot piD>"1-2--pets-noitaraperp"=di il<                  
+>il/<.etsap gniruoloc doof tnereffid a htiw lwob hcae ruoloc neht slwob llams 4 neewteb ediviD .gnici ffits a mrof ot ,emit a ta pst 1 ,retaw htiw xim neht lwob evomeR .ragus ni hgiew dna dil lwob gnixim no lwob a ecalP>"0-2--pets-noitaraperp"=di il<                  
+>lo<              
+>4h/<gnicI>"eltit-2-pets-noitaraperp"=di 4h<                
+>lo/<              
+>il/<.wobniar a fo epahs eht ni swor 4 ni egnarra neht snub ni seloh otni maerc yrrebpsar epip ,looc era snub xuohc ecnO>"2-1--pets-noitaraperp"=di il<                  
+>il/<.elzzon detniop ,niht a htiw dettif gab gnipip a ot maerc yrrebpsar refsnart neht >gnorts/<ksihw ylfrettub evomeR>gnorts< .gnippihw-revo diova ot ylluferac gnihctaw ,ffits tsuj litnu >rbon/<4 deeps/emit a gnittes tuohtiw>rbon< pihw neht lwob gnixim ni maerc dna eérup yrrebpsar delooc ecalP .>gnorts/<ksihw ylfrettub tresnI>gnorts<
+>"1-1--pets-noitaraperp"=di il<                  
+>il/<.lwob gnixim naelc ,elihwnaeM .looc ot edisa tes neht lwob a otni eveis enif a hguorht eérup niartS .>rbon/<1 deeps/C°001/nim 4>rbon< taeh neht lwob gnixim ni seirrebpsar dna ragus ecalP>"0-1--pets-noitaraperp"=di il<                  
+>lo<              
+>4h/<gnilliF>"eltit-1-pets-noitaraperp"=di 4h<                
+>lo/<              
+>il/<.gnillif ekam ,elihwnaeM .)pit ees( yletelpmoc looc ot evael neht snub xuohc fo mottob eht ni seloh ekam ,reweks a gnisU .lwob gnixim naelc ,elihwnaeM .nworb nedlog dna deffup litnu ro )C°002( setunim 02 rof ekaB .)pit ees( hcae neewteb mc 5 gnivael ,syart deraperp otno snub dezis-tunlaw epip neht ,elzzon nialp a htiw dettif gab gnipip a ot refsnarT>"5-0--pets-noitaraperp"=di il<                  
+>il/<.>rbon/<5 deeps/ces 03>rbon< niaga xim neht puc gnirusaem tresni ,gge tsal eht gnidda retfA>"4-0--pets-noitaraperp"=di il<                  
+>il/<.dil lwob gnixim ni eloh hguorht ,emit a ta eno ,sgge dda neht >rbon/<5 deeps>rbon< tes ,puc gnirusaem tuohtiw ,neht noitisop otni kcab lwob gnixim ecalP>"3-0--pets-noitaraperp"=di il<                  
+>il/<.repap gnikab htiw syart gnikab 2 enil dna C°002 ot nevo taeherP>"2-0--pets-noitaraperp"=di il<                  
+>il/<.setunim 01 rof dil tuohtiw looc ot evael dna lwob gnixim evomeR .>rbon/<4 deeps/ces 02>rbon< xim dna ruolf ddA>"1-0--pets-noitaraperp"=di il<                  
+>il/<.>rbon/<1 deeps/C°001/nim 5>rbon< taeh neht lwob gnixim ni tlas dna retaw ,ragus ,rettub ecalP>"0-0--pets-noitaraperp"=di il<                  
+>lo<              
+>4h/<yrtsaP xuohC>"eltit-0-pets-noitaraperp"=di 4h<                
+>3h/<noitaraperP>"eltit-spets-noitaraperp"=di 3h<            
+>noitces-tsil-eroc<            
+>"spets-noitaraperp"=ssalc "spets-noitaraperp"=di vid<
+>"thgir-loc-l"=ssalc "thgir-tnetnoc-epicer"=di vid<
+>vid/<
+>vid/<
+>"06-revlis--rotarapes"=ssalc rh<  
+>vid/<  
+>ld/<    
+>dd/<        
+ g 8.34          
+>dd<        
+>td/<taF>td<        
+>dd/<        
+ g 8.73          
+>dd<        
+>td/<setardyhobraC>td<        
+>dd/<        
+ g 4.8          
+>dd<        
+>td/<nietorP>td<        
+>dd/<        
+ lack 485          
+ /  Jk 5242          
+>dd<        
+>td/<seirolaC>td<        
+>dd/<noitrop 1 rep>dd<      
+>td/<noitirtuN>"yramirp--td"=ssalc td<      
+>ld<    
+>"snoitirtun"=ssalc vid<  >"repparw-snoitirtun"=ssalc "elibom-snoitirtun"=di vid<
+>"06-revlis--rotarapes"=ssalc rh<
+>vid/<          
+>noitces-tsil-eroc/<            
+>lu/<                
+>il/<          setsap gniruoloc doof                       
+4                        
+>"2-2-tneidergni"=di il<                    
+>il/<                    
+gnici rof ,retaw                       
+>"1-2-tneidergni"=di il<                    
+>il/<          ragus gnici g                      
+052                        
+>"0-2-tneidergni"=di il<                    
+>"2-stneidergni"=di lu<                
+>4h/<gnicI>"redaeh__noitces-tsil-eroc"=ssalc "2-puorg-tneidergni"=di 4h<                
+>lu/<                
+>il/<          maerc elbuod g                      
+053                        
+>"2-1-tneidergni"=di il<                    
+>il/<          seirrebpsar hserf g                      
+002                        
+>"1-1-tneidergni"=di il<                    
+>il/<          ragus gnici g                      
+05                        
+>"0-1-tneidergni"=di il<                    
+>"1-stneidergni"=di lu<                
+>4h/<gnilliF>"redaeh__noitces-tsil-eroc"=ssalc "1-puorg-tneidergni"=di 4h<                
+>lu/<                
+>il/<          sgge egral                       
+3                        
+>"5-0-tneidergni"=di il<                    
+>il/<          ruolf daerb etihw gnorts g                      
+021                        
+>"4-0-tneidergni"=di il<                    
+>il/<          tlas aes enif hcnip                      
+1                        
+>"3-0-tneidergni"=di il<                    
+>il/<          retaw g                      
+051                        
+>"2-0-tneidergni"=di il<                    
+>il/<          ragus retsac g                      
+01                        
+>"1-0-tneidergni"=di il<                    
+>il/<                    
+tfos ,rettub detlasnu g                      
+08                        
+>"0-0-tneidergni"=di il<                    
+>"0-stneidergni"=di lu<                
+>4h/<yrtsaP xuohC>"redaeh__noitces-tsil-eroc"=ssalc "0-puorg-tneidergni"=di 4h<                
+>noitces-tsil-eroc<            
+>3h/<stneidergnI>"eltit-stneidergni"=di 3h<            
+>"stneidergni"=di vid<
+>"tfel-loc-l"=ssalc "tfel-tnetnoc-epicer"=di vid<
+>"tnetnoc-l"=ssalc vid<
+>vid/<
+>snoci-erutaef-eroc/<      
+>vid/<        
+>lebal/<snoitrop 8 >naps/<ezis gnivreS>"eltitbus__snoci-erutaef-eroc"=ssalc naps<>"txet__snoci-erutaef-eroc"=ssalc "txet-noci-ytitnauq-noci-cr"=di lebal<          
+>naps/<>"sgnivres--noci noci noci__snoci-erutaef-eroc"=ssalc "noci-ytitnauq-noci-cr"=di naps<          
+>"meti__snoci-erutaef-eroc"=ssalc "ytitnauq-noci-cr"=di vid<        
+>vid/<        
+>lebal/<m52 h1 >naps/<emit latoT>"eltitbus__snoci-erutaef-eroc"=ssalc naps<>"txet__snoci-erutaef-eroc"=ssalc "txet-emit-latot-noci-cr"=di lebal<          
+>naps/<>"latot-emit--noci noci noci__snoci-erutaef-eroc"=ssalc "noci-emit-latot-noci-cr"=di naps<          
+>"meti__snoci-erutaef-eroc"=ssalc "emit-latot-noci-cr"=di vid<        
+>vid/<        
+>lebal/<m54 >naps/<emit noitaraperP>"eltitbus__snoci-erutaef-eroc"=ssalc naps<>"txet__snoci-erutaef-eroc"=ssalc "txet-emit-evitca-noci-cr"=di lebal<          
+>naps/<>"noitaraperp-emit--noci noci noci__snoci-erutaef-eroc"=ssalc "noci-emit-evitca-noci-cr"=di naps<          
+>"meti__snoci-erutaef-eroc"=ssalc "emit-evitca-noci-cr"=di vid<        
+>vid/<        
+>lebal/<muidem >naps/<ytluciffiD>"eltitbus__snoci-erutaef-eroc"=ssalc naps<>"txet__snoci-erutaef-eroc"=ssalc "txet-ytluciffid-noci-cr"=di lebal<          
+>naps/<>"tah-fehc--noci noci noci__snoci-erutaef-eroc"=ssalc "noci-ytluciffid-noci-cr"=di naps<          
+>"meti__snoci-erutaef-eroc"=ssalc "ytluciffid-noci-cr"=di vid<        
+>"egral--snoci-erutaef-eroc"=ssalc snoci-erutaef-eroc<
+>"repparw-g"=ssalc vid<
+>"elit--repparw-l repparw-l"=ssalc vid<
+>vid/<
+>vid/<
+>vid/<
+>vid/<
+>sispille-eroc/<          
+>1h/<snuB xuohC wobniaR>"eltit__drac-epicer"=ssalc 1h<            
+>"sispille_eltit__drac-epicer"=ssalc "4"=tnuoc-senil sispille-eroc<
+>vid/<          
+>segdab-epicer/<            
+>egdab-eroc/<                
+6MT                  
+>"6MT"=noisrev-atad egdab-eroc<                
+>egdab-eroc/<                
+5MT                  
+>"5MT"=noisrev-atad egdab-eroc<                
+>"snoisrev-ximomreht/secived-remotsuc/"=lru segdab-epicer<            
+>"reggirt-snoisrev"=di "noisrev-mt__drac-epicer"=ssalc vid<
+>"ofni__drac-epicer"=ssalc vid<
+>"%001:htdiw"=elyts "063452/bdmiv/epicer/gmi/825x006bew_t/daolpu/egami/moc.sysocemt.stessa//:sptth"=crs gmi<
+>"drac-epicer"=ssalc "drac-epicer"=di vid<
+>"elit-l"=ssalc vid<
+>"tesffo-redaeh-l repparw-g"=ssalc vid<
+>"tnetnoc-egap"=ssalc vid<
+>ydob<
