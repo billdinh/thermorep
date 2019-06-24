@@ -1,0 +1,856 @@
+>ydob/<
+>vid/<
+>vid/<
+>vid/<
+>vid/<
+>vid/<            
+>--]fidne[!<          
+>elyts/<          
+};SU-NE:egaugnal-tsaeraf-osm	          
+;nital-ronim:tnof-emeht-isnah-osm	          
+;irbilaC:ylimaf-tnof-isnah-osm	          
+;nital-ronim:tnof-emeht-iicsa-osm	          
+;irbilaC:ylimaf-tnof-iicsa-osm	          
+;fires-snas,"irbilaC":ylimaf-tnof	          
+;tp0.01:ezis-tnof	          
+;nahpro-wodiw:noitanigap-osm	          
+;tp1000.:mottob-nigram-arap-osm	          
+;mc0:nigram-arap-osm	          
+;tp4.5 mc0 tp4.5 mc0:tla-gniddap-osm	          
+;"":tnerap-elyts-osm	          
+;99:ytiroirp-elyts-osm	          
+;sey:wohson-elyts-osm	          
+;0:ezis-dnabloc-elytst-osm	          
+;0:ezis-dnabwor-elytst-osm	          
+;"lamroN elbaT":eman-elyts-osm{	          
+elbaTlamroNosM.elbat           
+/* snoitinifeD elytS */           
+>elyts<          
+>]01 osm etg fi[--!<>--]fidne[!<>lmx/<          
+>selytStnetaL:w/<           
+>/"6 tneccA lufroloC 7 elbaT tsiL"=emaN             
+"25"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA lufroloC 6 elbaT tsiL"=emaN             
+"15"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA kraD 5 elbaT tsiL"=emaN "05"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA 4 elbaT tsiL"=emaN "94"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA 3 elbaT tsiL"=emaN "84"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA 2 elbaT tsiL"=emaN "74"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA thgiL 1 elbaT tsiL"=emaN             
+"64"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA lufroloC 7 elbaT tsiL"=emaN             
+"25"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA lufroloC 6 elbaT tsiL"=emaN             
+"15"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA kraD 5 elbaT tsiL"=emaN "05"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA 4 elbaT tsiL"=emaN "94"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA 3 elbaT tsiL"=emaN "84"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA 2 elbaT tsiL"=emaN "74"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA thgiL 1 elbaT tsiL"=emaN             
+"64"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA lufroloC 7 elbaT tsiL"=emaN             
+"25"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA lufroloC 6 elbaT tsiL"=emaN             
+"15"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA kraD 5 elbaT tsiL"=emaN "05"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA 4 elbaT tsiL"=emaN "94"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA 3 elbaT tsiL"=emaN "84"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA 2 elbaT tsiL"=emaN "74"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA thgiL 1 elbaT tsiL"=emaN             
+"64"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA lufroloC 7 elbaT tsiL"=emaN             
+"25"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA lufroloC 6 elbaT tsiL"=emaN             
+"15"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA kraD 5 elbaT tsiL"=emaN "05"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA 4 elbaT tsiL"=emaN "94"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA 3 elbaT tsiL"=emaN "84"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA 2 elbaT tsiL"=emaN "74"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA thgiL 1 elbaT tsiL"=emaN             
+"64"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA lufroloC 7 elbaT tsiL"=emaN             
+"25"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA lufroloC 6 elbaT tsiL"=emaN             
+"15"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA kraD 5 elbaT tsiL"=emaN "05"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA 4 elbaT tsiL"=emaN "94"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA 3 elbaT tsiL"=emaN "84"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA 2 elbaT tsiL"=emaN "74"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA thgiL 1 elbaT tsiL"=emaN             
+"64"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA lufroloC 7 elbaT tsiL"=emaN             
+"25"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA lufroloC 6 elbaT tsiL"=emaN             
+"15"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA kraD 5 elbaT tsiL"=emaN "05"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA 4 elbaT tsiL"=emaN "94"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA 3 elbaT tsiL"=emaN "84"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA 2 elbaT tsiL"=emaN "74"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA thgiL 1 elbaT tsiL"=emaN             
+"64"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"lufroloC 7 elbaT tsiL"=emaN "25"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"lufroloC 6 elbaT tsiL"=emaN "15"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"kraD 5 elbaT tsiL"=emaN "05"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 elbaT tsiL"=emaN "94"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 elbaT tsiL"=emaN "84"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 elbaT tsiL"=emaN "74"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"thgiL 1 elbaT tsiL"=emaN "64"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA lufroloC 7 elbaT dirG"=emaN             
+"25"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA lufroloC 6 elbaT dirG"=emaN             
+"15"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA kraD 5 elbaT dirG"=emaN "05"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA 4 elbaT dirG"=emaN "94"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA 3 elbaT dirG"=emaN "84"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA 2 elbaT dirG"=emaN "74"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA thgiL 1 elbaT dirG"=emaN             
+"64"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA lufroloC 7 elbaT dirG"=emaN             
+"25"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA lufroloC 6 elbaT dirG"=emaN             
+"15"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA kraD 5 elbaT dirG"=emaN "05"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA 4 elbaT dirG"=emaN "94"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA 3 elbaT dirG"=emaN "84"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA 2 elbaT dirG"=emaN "74"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA thgiL 1 elbaT dirG"=emaN             
+"64"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA lufroloC 7 elbaT dirG"=emaN             
+"25"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA lufroloC 6 elbaT dirG"=emaN             
+"15"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA kraD 5 elbaT dirG"=emaN "05"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA 4 elbaT dirG"=emaN "94"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA 3 elbaT dirG"=emaN "84"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA 2 elbaT dirG"=emaN "74"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA thgiL 1 elbaT dirG"=emaN             
+"64"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA lufroloC 7 elbaT dirG"=emaN             
+"25"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA lufroloC 6 elbaT dirG"=emaN             
+"15"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA kraD 5 elbaT dirG"=emaN "05"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA 4 elbaT dirG"=emaN "94"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA 3 elbaT dirG"=emaN "84"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA 2 elbaT dirG"=emaN "74"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA thgiL 1 elbaT dirG"=emaN             
+"64"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA lufroloC 7 elbaT dirG"=emaN             
+"25"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA lufroloC 6 elbaT dirG"=emaN             
+"15"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA kraD 5 elbaT dirG"=emaN "05"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA 4 elbaT dirG"=emaN "94"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA 3 elbaT dirG"=emaN "84"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA 2 elbaT dirG"=emaN "74"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA thgiL 1 elbaT dirG"=emaN             
+"64"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA lufroloC 7 elbaT dirG"=emaN             
+"25"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA lufroloC 6 elbaT dirG"=emaN             
+"15"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA kraD 5 elbaT dirG"=emaN "05"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA 4 elbaT dirG"=emaN "94"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA 3 elbaT dirG"=emaN "84"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA 2 elbaT dirG"=emaN "74"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA thgiL 1 elbaT dirG"=emaN             
+"64"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"lufroloC 7 elbaT dirG"=emaN "25"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"lufroloC 6 elbaT dirG"=emaN "15"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"kraD 5 elbaT dirG"=emaN "05"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 elbaT dirG"=emaN "94"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 elbaT dirG"=emaN "84"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 elbaT dirG"=emaN "74"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"thgiL 1 elbaT dirG"=emaN "64"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"thgiL elbaT dirG"=emaN "04"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 elbaT nialP"=emaN "54"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 elbaT nialP"=emaN "44"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 elbaT nialP"=emaN "34"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 elbaT nialP"=emaN "24"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 elbaT nialP"=emaN "14"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"gnidaeH COT"=emaN "eurt"=tamroFQ "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "93"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"yhpargoilbiB"=emaN "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "73"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"eltiT kooB"=emaN "eurt"=tamroFQ "33"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"ecnerefeR esnetnI"=emaN             
+"eurt"=tamroFQ "23"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"ecnerefeR eltbuS"=emaN             
+"eurt"=tamroFQ "13"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"sisahpmE esnetnI"=emaN             
+"eurt"=tamroFQ "12"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"sisahpmE eltbuS"=emaN             
+"eurt"=tamroFQ "91"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA dirG lufroloC"=emaN "37"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA tsiL lufroloC"=emaN "27"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA gnidahS lufroloC"=emaN "17"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA tsiL kraD"=emaN "07"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA 3 dirG muideM"=emaN "96"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA 2 dirG muideM"=emaN "86"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA 1 dirG muideM"=emaN "76"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA 2 tsiL muideM"=emaN "66"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA 1 tsiL muideM"=emaN "56"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA 2 gnidahS muideM"=emaN "46"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA 1 gnidahS muideM"=emaN "36"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA dirG thgiL"=emaN "26"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA tsiL thgiL"=emaN "16"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tneccA gnidahS thgiL"=emaN "06"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA dirG lufroloC"=emaN "37"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA tsiL lufroloC"=emaN "27"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA gnidahS lufroloC"=emaN "17"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA tsiL kraD"=emaN "07"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA 3 dirG muideM"=emaN "96"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA 2 dirG muideM"=emaN "86"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA 1 dirG muideM"=emaN "76"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA 2 tsiL muideM"=emaN "66"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA 1 tsiL muideM"=emaN "56"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA 2 gnidahS muideM"=emaN "46"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA 1 gnidahS muideM"=emaN "36"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA dirG thgiL"=emaN "26"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA tsiL thgiL"=emaN "16"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tneccA gnidahS thgiL"=emaN "06"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA dirG lufroloC"=emaN "37"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA tsiL lufroloC"=emaN "27"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA gnidahS lufroloC"=emaN "17"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA tsiL kraD"=emaN "07"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA 3 dirG muideM"=emaN "96"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA 2 dirG muideM"=emaN "86"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA 1 dirG muideM"=emaN "76"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA 2 tsiL muideM"=emaN "66"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA 1 tsiL muideM"=emaN "56"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA 2 gnidahS muideM"=emaN "46"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA 1 gnidahS muideM"=emaN "36"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA dirG thgiL"=emaN "26"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA tsiL thgiL"=emaN "16"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tneccA gnidahS thgiL"=emaN "06"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA dirG lufroloC"=emaN "37"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA tsiL lufroloC"=emaN "27"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA gnidahS lufroloC"=emaN "17"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA tsiL kraD"=emaN "07"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA 3 dirG muideM"=emaN "96"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA 2 dirG muideM"=emaN "86"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA 1 dirG muideM"=emaN "76"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA 2 tsiL muideM"=emaN "66"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA 1 tsiL muideM"=emaN "56"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA 2 gnidahS muideM"=emaN "46"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA 1 gnidahS muideM"=emaN "36"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA dirG thgiL"=emaN "26"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA tsiL thgiL"=emaN "16"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tneccA gnidahS thgiL"=emaN "06"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA dirG lufroloC"=emaN "37"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA tsiL lufroloC"=emaN "27"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA gnidahS lufroloC"=emaN "17"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA tsiL kraD"=emaN "07"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA 3 dirG muideM"=emaN "96"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA 2 dirG muideM"=emaN "86"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA 1 dirG muideM"=emaN "76"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA 2 tsiL muideM"=emaN "66"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA 1 tsiL muideM"=emaN "56"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA 2 gnidahS muideM"=emaN "46"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA 1 gnidahS muideM"=emaN "36"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA dirG thgiL"=emaN "26"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA tsiL thgiL"=emaN "16"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tneccA gnidahS thgiL"=emaN "06"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA dirG lufroloC"=emaN "37"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA tsiL lufroloC"=emaN "27"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA gnidahS lufroloC"=emaN "17"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA tsiL kraD"=emaN "07"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA 3 dirG muideM"=emaN "96"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA 2 dirG muideM"=emaN "86"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA 1 dirG muideM"=emaN "76"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA 2 tsiL muideM"=emaN "66"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"etouQ esnetnI"=emaN             
+"eurt"=tamroFQ "03"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"etouQ"=emaN "eurt"=tamroFQ "92"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"hpargaraP tsiL"=emaN             
+"eurt"=tamroFQ "43"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"noisiveR"=emaN "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA 1 tsiL muideM"=emaN "56"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA 2 gnidahS muideM"=emaN "46"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA 1 gnidahS muideM"=emaN "36"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA dirG thgiL"=emaN "26"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA tsiL thgiL"=emaN "16"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tneccA gnidahS thgiL"=emaN "06"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"dirG lufroloC"=emaN "37"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"tsiL lufroloC"=emaN "27"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"gnidahS lufroloC"=emaN "17"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"tsiL kraD"=emaN "07"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 dirG muideM"=emaN "96"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 dirG muideM"=emaN "86"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 dirG muideM"=emaN "76"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tsiL muideM"=emaN "66"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tsiL muideM"=emaN "56"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 gnidahS muideM"=emaN "46"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 gnidahS muideM"=emaN "36"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"dirG thgiL"=emaN "26"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"tsiL thgiL"=emaN "16"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"gnidahS thgiL"=emaN "06"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"gnicapS oN"=emaN "eurt"=tamroFQ "1"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"txeT redlohecalP"=emaN "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"emehT elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"dirG elbaT"=emaN "93"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"txeT noollaB"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 beW elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 beW elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 beW elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 eltbuS elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 eltbuS elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"lanoisseforP elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"tnagelE elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"yraropmetnoC elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 stceffe D3 elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 stceffe D3 elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 stceffe D3 elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"8 tsiL elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"7 tsiL elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 tsiL elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tsiL elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tsiL elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tsiL elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tsiL elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tsiL elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"8 dirG elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"7 dirG elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 dirG elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 dirG elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 dirG elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 dirG elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 dirG elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 dirG elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 snmuloC elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 snmuloC elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 snmuloC elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 snmuloC elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 snmuloC elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 lufroloC elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 lufroloC elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 lufroloC elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 cissalC elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 cissalC elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 cissalC elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 cissalC elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 elpmiS elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 elpmiS elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 elpmiS elbaT"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tsiL eniltuO"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tsiL eniltuO"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 tsiL eniltuO"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"tsiL oN"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"tcejbus noitatonna"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"elbaT lamroN"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"elbairaV LMTH"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"retirwepyT LMTH"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"elpmaS LMTH"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"dettamroferP LMTH"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"draobyeK LMTH"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"noitinifeD LMTH"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"edoC LMTH"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"etiC LMTH"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"sserddA LMTH"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"mynorcA LMTH"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/")beW( lamroN"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"mroF fo mottoB LMTH"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"mroF fo poT LMTH"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"erutangiS liam-E"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"txeT nialP"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"paM tnemucoD"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"sisahpmE"=emaN "eurt"=tamroFQ "02"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"gnortS"=emaN "eurt"=tamroFQ "22"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"knilrepyHdewolloF"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"knilrepyH"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"txeT kcolB"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tnednI txeT ydoB"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tnednI txeT ydoB"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 txeT ydoB"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 txeT ydoB"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"gnidaeH etoN"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tnednI tsriF txeT ydoB"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"tnednI tsriF txeT ydoB"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"etaD"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"noitatulaS"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"eltitbuS"=emaN "eurt"=tamroFQ "11"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"redaeH egasseM"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 eunitnoC tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 eunitnoC tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 eunitnoC tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 eunitnoC tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"eunitnoC tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"tnednI txeT ydoB"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"txeT ydoB"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"tnoF hpargaraP tluafeD"=emaN "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "1"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"erutangiS"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"gnisolC"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"eltiT"=emaN "eurt"=tamroFQ "01"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 rebmuN tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 rebmuN tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 rebmuN tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 rebmuN tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 telluB tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 telluB tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 telluB tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 telluB tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"rebmuN tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"telluB tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"tsiL"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"gnidaeh aot"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"orcam"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"seitirohtua fo elbat"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"txet etondne"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"ecnerefer etondne"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"rebmun egap"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"rebmun enil"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"ecnerefer noitatonna"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"ecnerefer etontoof"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"nruter epolevne"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"sserdda epolevne"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"serugif fo elbat"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"noitpac"=emaN "eurt"=tamroFQ "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "53"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"gnidaeh xedni"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"retoof"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"redaeh"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"txet noitatonna"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"txet etontoof"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"tnednI lamroN"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"9 cot"=emaN "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "93"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"8 cot"=emaN "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "93"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"7 cot"=emaN "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "93"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 cot"=emaN "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "93"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 cot"=emaN "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "93"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 cot"=emaN "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "93"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 cot"=emaN "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "93"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 cot"=emaN "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "93"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 cot"=emaN "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "93"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"9 xedni"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"8 xedni"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"7 xedni"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 xedni"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 xedni"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 xedni"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 xedni"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 xedni"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 xedni"=emaN             
+"eurt"=desUnehWedihnU "eurt"=neddiHimeS "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"9 gnidaeh"=emaN "eurt"=tamroFQ "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "9"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"8 gnidaeh"=emaN "eurt"=tamroFQ "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "9"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"7 gnidaeh"=emaN "eurt"=tamroFQ "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "9"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"6 gnidaeh"=emaN "eurt"=tamroFQ "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "9"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"5 gnidaeh"=emaN "eurt"=tamroFQ "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "9"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"4 gnidaeh"=emaN "eurt"=tamroFQ "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "9"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"3 gnidaeh"=emaN "eurt"=tamroFQ "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "9"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"2 gnidaeh"=emaN "eurt"=tamroFQ "eurt"=desUnehWedihnU             
+"eurt"=neddiHimeS "9"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"1 gnidaeh"=emaN "eurt"=tamroFQ "9"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>/"lamroN"=emaN "eurt"=tamroFQ "0"=ytiroirP "eslaf"=dekcoL noitpecxEdsL:w<            
+>"173"=tnuoCelytStnetaL            
+"99"=ytiroirPfeD "eslaf"=tamroFQfeD "eslaf"=neddiHimeSfeD            
+"eslaf"=desUnehWedihnUfeD "eslaf"=etatSdekcoLfeD selytStnetaL:w<           
+>lmx<>]9 osm etg fi[--!<>--]fidne[!<>lmx/<          
+>tnemucoDdroW:w/<>rPhtam:m/<            
+>/"rvOdnu"=lav:m miLyran:m<             
+>/"puSbus"=lav:m miLtni:m<             
+>/"0441"=lav:m tnednIparw:m<             
+>/"puorGretnec"=lav:m cJfed:m<             
+>/"0"=lav:m nigraMr:m<             
+>/"0"=lav:m nigraMl:m<             
+>/feDpsid:m<             
+>/"ffo"=lav:m carFllams:m<             
+>/"-;54#&"=lav:m buSniBkrb:m<             
+>/"erofeb"=lav:m niBkrb:m<             
+>/"htaM airbmaC"=lav:m tnoFhtam:m<             
+>rPhtam:m<            
+>leveLresworB:w/<4rerolpxEtenretnItfosorciM>leveLresworB:w<            
+>ytilibitapmoC:w/<            
+>/spHelytSelbaTedirrevO:w<             
+>/stnednIrorriMpilFtnoD:w<             
+>/gninreKepyTnepOelbanE:w<             
+>/kraMaraPdnAkaerBgPtilpS:w<             
+>/tifotuAworGtnoD:w<             
+>/seluRkaerBnaisAesU:w<             
+>/tcnuPhtiWtxeTparW:w<             
+>/lleCnIdirGoTpanS:w<             
+>/selbaTdepparWkaerB:w<             
+>ytilibitapmoC:w<            
+>tpircSxelpmoCemehTdiL:w/<ENON-X>tpircSxelpmoCemehTdiL:w<            
+>naisAemehTdiL:w/<ENON-X>naisAemehTdiL:w<            
+>rehtOemehTdiL:w/<UA-NE>rehtOemehTdiL:w<            
+>/FQetomorPtoNoD:w<            
+>txeTredlohecalPwohSsyawlA:w/<eslaf>txeTredlohecalPwohSsyawlA:w<            
+>tnetnoCdexiMerongI:w/<eslaf>tnetnoCdexiMerongI:w<            
+>dilavnILMXfIevaS:w/<eslaf>dilavnILMXfIevaS:w<            
+>/samehcStsniagAetadilaV:w<            
+>/gninreKnoitautcnuP:w<            
+>/gnittamroFkcarT:w<            
+>/sevoMkcarT:w<            
+>mooZ:w/<0>mooZ:w<            
+>weiV:w/<lamroN>weiV:w<            
+>tnemucoDdroW:w<           
+>lmx<>]9 osm etg fi[--!<>--]fidne[!<>lmx/<          
+>sgnitteStnemucoDeciffO:o/<           
+>/GNPwollA:o<            
+>sgnitteStnemucoDeciffO:o<           
+>lmx<>]9 osm etg fi[--!<          
+>lu/<          
+>il/<.sdnoces 51 ni nworb nedlog nrut lliw daerb ,C°081 ta si lio nehw ;lio toh otni daerb fo ebuc llams a pord ro retemomreht nehctik a esu ,lio ruoy fo erutarepmet eht tset oT>il<          
+>il/<.erutarepmet moor ot gnirb ot gnikooc erofeb setunim 03 rotaregirfer morf evomer ,thginrevo ro sruoh lareves rof nekcihc gnitaniram fI>il<          
+>il/<.epicer siht ni tsaerb nekcihc ro shgiht nekcihc esu nac uoY>il<          
+>il/<.selacs eht no retsiger ot hguone yvaeh t'nera sevael laudividni fo thgiew eht sa ,slufdnah ni sevael tnim ddA>il<          
+>il/<.pihc epicer siht no sepicer eht ot refer esaelp ,etsap regnig dna etsap cilrag nwo ruoy ekam oT>il<          
+>il/<.netulg ro taehw fo secart niatnoc t'nod yeht erus ekam ot stcudorp ruoy fo slebal eht kcehc syawla ,eerf netulg si epicer ruoy erusne oT>il<          
+>lu<                
+>p/<.ycips ti ekam ot desu erew seillihc 56 taht ro ,syad 56 rof deraer neeb dah desu nekcihc eht taht mialc snoisrev rehto saerehw ,unem eht no hsid ht56 eht saw ti eveileb snoisrev emos ,detabed era epicer eht fo snigiro eurt eht hguohT .irahuB dellac tnaruatser letoh suomaf a ta detaerc saw dna stnaruatser naidnI ynam ni devres si 56 nekcihC>p<                
+>3h/<skcirT ;pma& stniH>"eltit-skcirt-dna-stnih"=di 3h<              
+>"noitces-epicer skcirt-dna-stnih"=ssalc "skcirt-dna-stnih"=di vid<
+>"06-revlis--rotarapes"=ssalc rh<
+>vid/<            
+pot evots                
+ ,rotaregirfer                
+ ,noops dettols                
+ ,napecuas peed                
+ ,retemomreht nehctik                
+ ,lewot repap                
+ ,etalp 1                
+ ,lwob gnivres                
+ ,parw citsalp                
+ ,lwob egral                
+>3h/<smetI lufesU>"eltit-smeti-lufesu"=di 3h<              
+>"noitces-epicer"=ssalc "slisnetu-epicer"=di vid<
+>"06-revlis--rotarapes"=ssalc rh<
+>vid/<          
+>noitces-tsil-eroc/<            
+>lo/<              
+>il/<.yentuhc neerG htiw evres dna sevael yrruc deirf htiw hsinraG .niard ot lewot repap otno refsnart dna noops dettols a gnisu nekcihc evomeR .hguorht dekooc dna nworb nedlog litnu ro setunim 3 .xorppa rof yrf dna napecuas ot nekcihc dda ,sehctab ni gnikroW>"3-2--pets-noitaraperp"=di il<                  
+>il/<.niard ot lewot repap otno refsnart dna noops dettols a htiw evomeR .)enod nehw pop ot trats lliw sevael ;setunim 2-1 .xorppa( psirc litnu yrf dna napecuas ot sevael yrruc ddA>"2-2--pets-noitaraperp"=di il<                  
+>il/<.)spiT ees( C°081 ot lio taeH .lio dda dna taeh hgih revo napecuas peed a ecalP>"1-2--pets-noitaraperp"=di il<                  
+>il/<.edisa tes dna lewot repap htiw etalp a eniL>"0-2--pets-noitaraperp"=di il<                  
+>lo<              
+>4h/<ylbmessA>"eltit-2-pets-noitaraperp"=di 4h<                
+>lo/<              
+>il/<.edisa tes dna lwob gnivres a otni refsnarT .htooms litnu ,>rbon/<01 deeps/nim 1>rbon< dnelb dna stneidergni yentuhc gniniamer lla ddA>"1-1--pets-noitaraperp"=di il<                  
+>il/<.>rbon/<01 deeps/ces 01>rbon< llim dna lwob gnixim otni soihcatsip ecalP>"0-1--pets-noitaraperp"=di il<                  
+>lo<              
+>4h/<yentuhc neerG>"eltit-1-pets-noitaraperp"=di 4h<                
+>lo/<              
+>il/<.lwob gnixim yrd dna naelC .)spiT ees( setunim 03  fo muminim a rof etaniram ot rotaregirfer otni ecalp dna parw citsalp htiw revoC .enibmoc ot llew rits neht ,ti otni nekcihc hgiew dna dil lwob gnixim otno lwob egral ecalP>"1-0--pets-noitaraperp"=di il<                  
+>il/<.lwob egral a otni refsnarT .>rbon/<9 deeps/nim 1>rbon< xim dna lwob gnixim otni ,nekcihc tpecxe ,stneidergni edaniram lla ecalP>"0-0--pets-noitaraperp"=di il<                  
+>lo<              
+>4h/<edaniraM>"eltit-0-pets-noitaraperp"=di 4h<                
+>3h/<noitaraperP>"eltit-spets-noitaraperp"=di 3h<            
+>noitces-tsil-eroc<            
+>"spets-noitaraperp"=ssalc "spets-noitaraperp"=di vid<
+>"thgir-loc-l"=ssalc "thgir-tnetnoc-epicer"=di vid<
+>vid/<
+>vid/<
+>"06-revlis--rotarapes"=ssalc rh<  
+>vid/<  
+>ld/<    
+>dd/<        
+ g 9.44          
+>dd<        
+>td/<taF>td<        
+>dd/<        
+ g 5.9          
+>dd<        
+>td/<setardyhobraC>td<        
+>dd/<        
+ g 62          
+>dd<        
+>td/<nietorP>td<        
+>dd/<        
+ lack 745          
+ /  Jk 8922          
+>dd<        
+>td/<seirolaC>td<        
+>dd/<snoitrop 1 rep>dd<      
+>td/<noitirtuN>"yramirp--td"=ssalc td<      
+>ld<    
+>"snoitirtun"=ssalc vid<  >"repparw-snoitirtun"=ssalc "elibom-snoitirtun"=di vid<
+>"06-revlis--rotarapes"=ssalc rh<
+>vid/<          
+>noitces-tsil-eroc/<            
+>lu/<                
+>il/<          sevael yrruc hserf                       
+02                        
+>"1-2-tneidergni"=di il<                    
+>il/<                    
+gniyrf rof ,lio elbategev g                      
+008                        
+>"0-2-tneidergni"=di il<                    
+>"2-stneidergni"=di lu<                
+>4h/<ylbmessA>"redaeh__noitces-tsil-eroc"=ssalc "2-puorg-tneidergni"=di 4h<                
+>lu/<                
+>il/<          tlas pst                      
+½                        
+>"7-1-tneidergni"=di il<                    
+>il/<          retaw pst                      
+3 - 2                        
+>"6-1-tneidergni"=di il<                    
+>il/<                    
+)spiT ees( etsap regnig pst                      
+1                        
+>"5-1-tneidergni"=di il<                    
+>il/<                    
+)g 04 .xorppa( ylno eciuj ,nomel                       
+1                        
+>"4-1-tneidergni"=di il<                    
+>il/<                    
+derreferp fi ,dedeesed dna sevlah otni tuc ,demmirt ,seillihc neerg gnol hserf                       
+4                        
+>"3-1-tneidergni"=di il<                    
+>il/<                    
+ylno sevael dna sklats ,rednairoc hserf g                      
+06                        
+>"2-1-tneidergni"=di il<                    
+>il/<                    
+)spiT ees( )hcnub ½ .xorppa( sevael tnim hserf g                      
+02                        
+>"1-1-tneidergni"=di il<                    
+>il/<          stun oihcatsip g                      
+02                        
+>"0-1-tneidergni"=di il<                    
+>"1-stneidergni"=di lu<                
+>4h/<yentuhc neerG>"redaeh__noitces-tsil-eroc"=ssalc "1-puorg-tneidergni"=di 4h<                
+>lu/<                
+>il/<                    
+)spiT ees( )mc 3( seceip otni tuc ,stellif hgiht nekcihc sselniks g                      
+007                        
+>"11-0-tneidergni"=di il<                    
+>il/<                    
+)g 04 .xorppa( ylno eciuj ,semil                       
+2                        
+>"01-0-tneidergni"=di il<                    
+>il/<          sgge                       
+2                        
+>"9-0-tneidergni"=di il<                    
+>il/<                    
+)spiT ees( etsap cilrag pst                      
+1                        
+>"8-0-tneidergni"=di il<                    
+>il/<                    
+)spiT ees( etsap regnig pst                      
+2                        
+>"7-0-tneidergni"=di il<                    
+>il/<          tlas pst                      
+1                        
+>"6-0-tneidergni"=di il<                    
+>il/<          reppep kcalb dnuorg pst                      
+1                        
+>"5-0-tneidergni"=di il<                    
+>il/<                    
+)spiT ees( ruolfnroc g                      
+04                        
+>"4-0-tneidergni"=di il<                    
+>il/<          ciremrut dnuorg pst                      
+1                        
+>"3-0-tneidergni"=di il<                    
+>il/<          nimuc dnuorg pst                      
+1                        
+>"2-0-tneidergni"=di il<                    
+>il/<          redwop illihc irimhsaK pst                      
+2                        
+>"1-0-tneidergni"=di il<                    
+>il/<          rednairoc dnuorg pst                      
+2                        
+>"0-0-tneidergni"=di il<                    
+>"0-stneidergni"=di lu<                
+>4h/<edaniraM>"redaeh__noitces-tsil-eroc"=ssalc "0-puorg-tneidergni"=di 4h<                
+>noitces-tsil-eroc<            
+>3h/<stneidergnI>"eltit-stneidergni"=di 3h<            
+>"stneidergni"=di vid<
+>"tfel-loc-l"=ssalc "tfel-tnetnoc-epicer"=di vid<
+>"tnetnoc-l"=ssalc vid<
+>vid/<
+>snoci-erutaef-eroc/<      
+>vid/<        
+>lebal/<snoitrop 6 >naps/<ezis gnivreS>"eltitbus__snoci-erutaef-eroc"=ssalc naps<>"txet__snoci-erutaef-eroc"=ssalc "txet-noci-ytitnauq-noci-cr"=di lebal<          
+>naps/<>"sgnivres--noci noci noci__snoci-erutaef-eroc"=ssalc "noci-ytitnauq-noci-cr"=di naps<          
+>"meti__snoci-erutaef-eroc"=ssalc "ytitnauq-noci-cr"=di vid<        
+>vid/<        
+>lebal/<m5 h1 >naps/<emit latoT>"eltitbus__snoci-erutaef-eroc"=ssalc naps<>"txet__snoci-erutaef-eroc"=ssalc "txet-emit-latot-noci-cr"=di lebal<          
+>naps/<>"latot-emit--noci noci noci__snoci-erutaef-eroc"=ssalc "noci-emit-latot-noci-cr"=di naps<          
+>"meti__snoci-erutaef-eroc"=ssalc "emit-latot-noci-cr"=di vid<        
+>vid/<        
+>lebal/<m52 >naps/<emit noitaraperP>"eltitbus__snoci-erutaef-eroc"=ssalc naps<>"txet__snoci-erutaef-eroc"=ssalc "txet-emit-evitca-noci-cr"=di lebal<          
+>naps/<>"noitaraperp-emit--noci noci noci__snoci-erutaef-eroc"=ssalc "noci-emit-evitca-noci-cr"=di naps<          
+>"meti__snoci-erutaef-eroc"=ssalc "emit-evitca-noci-cr"=di vid<        
+>vid/<        
+>lebal/<ysae >naps/<ytluciffiD>"eltitbus__snoci-erutaef-eroc"=ssalc naps<>"txet__snoci-erutaef-eroc"=ssalc "txet-ytluciffid-noci-cr"=di lebal<          
+>naps/<>"tah-fehc--noci noci noci__snoci-erutaef-eroc"=ssalc "noci-ytluciffid-noci-cr"=di naps<          
+>"meti__snoci-erutaef-eroc"=ssalc "ytluciffid-noci-cr"=di vid<        
+>"egral--snoci-erutaef-eroc"=ssalc snoci-erutaef-eroc<
+>"repparw-g"=ssalc vid<
+>"elit--repparw-l repparw-l"=ssalc vid<
+>vid/<
+>vid/<
+>vid/<
+>vid/<
+>sispille-eroc/<          
+>1h/<yentuhc neerg dna 56 nekcihC>"eltit__drac-epicer"=ssalc 1h<            
+>"sispille_eltit__drac-epicer"=ssalc "4"=tnuoc-senil sispille-eroc<
+>vid/<          
+>segdab-epicer/<            
+>egdab-eroc/<                
+6MT                  
+>"6MT"=noisrev-atad egdab-eroc<                
+>egdab-eroc/<                
+5MT                  
+>"5MT"=noisrev-atad egdab-eroc<                
+>"snoisrev-ximomreht/secived-remotsuc/"=lru segdab-epicer<            
+>"reggirt-snoisrev"=di "noisrev-mt__drac-epicer"=ssalc vid<
+>"ofni__drac-epicer"=ssalc vid<
+>"%001:htdiw"=elyts "gwU7_59iQQB02DoE*0/0061/xam/moc.muidem.1-segami-ndc//:sptth"=crs gmi<
+>"drac-epicer"=ssalc "drac-epicer"=di vid<
+>"elit-l"=ssalc vid<
+>"tesffo-redaeh-l repparw-g"=ssalc vid<
+>"tnetnoc-egap"=ssalc vid<
+>ydob<
