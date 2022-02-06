@@ -1,0 +1,2402 @@
+<html class="is-unauthenticated" lang="en-GB"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="marketCode" content="gb">
+  <meta name="publicationDateOffset" content="">
+  <base href="/search/">
+  <link rel="dns-prefetch" href="https://patternlib-all.prod.external.eu-tm-prod.vorwerk-digital.com">
+  <link rel="dns-prefetch" href="https://searchpublic-search.external.eu-tm-prod.vorwerk-digital.com">
+  <link rel="preconnect" href="https://3TA8NT85XJ-dsn.algolia.net/">
+  <link rel="icon" href="https://patternlib-all.prod.external.eu-tm-prod.vorwerk-digital.com/favicon-02a92602e0cf506ebd0186892a17fd82.ico">
+  <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://searchpublic-search.external.eu-tm-prod.vorwerk-digital.com/searchinsights@2.0.1.min-f7f37597a9f1309a261c13b1550e019e.js"></script><script>
+    (function(s,t,a,n){s[t]||(s[t]=a,n=s[a]=function(){n.q.push(arguments)},
+    n.q=[],n.v=2,n.l=1*new Date)})(window,"InstanaEumObject","ineum");
+    ineum('reportingUrl', 'https://eum-blue-saas.instana.io');
+    ineum('key', 'eB7Yrb7GQ16JkOgFrQLfLA');
+    ineum('page', 'search')
+    ineum('meta', 'userAgent', navigator.userAgent)
+  </script>
+  <script defer="" crossorigin="anonymous" src="https://eum.instana.io/eum.min.js"></script>
+  <title>Search - Cookidoo® – the official Thermomix® recipe platform</title>
+  <script>!function(){"use strict";var t;t="v-authenticated",(document.cookie||"").indexOf(t+"=")>=0?document.documentElement.classList.add("is-authenticated"):document.documentElement.classList.add("is-unauthenticated")}();
+</script>
+  <link rel="stylesheet" href="https://patternlib-all.prod.external.eu-tm-prod.vorwerk-digital.com/pl-core-20.10.6-208033e1d479ae88c497994487fc1e3c.css">
+  <!-- Search Webapp custom CSS -->
+  <link rel="stylesheet" href="https://searchpublic-search.external.eu-tm-prod.vorwerk-digital.com/styles-36c258ef2b3abbc8e104a1ea23c543e4.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-98793173-43"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { window.dataLayer.push(arguments); }
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied',
+    'wait_for_update': 500
+  });
+  gtag('js', new Date());
+  gtag('set', 'developer_id.dNzMyY2', true);
+  gtag('config', 'UA-98793173-43', { 'anonymize_ip': true });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    let script = document.createElement('script');
+    script.text = `
+      const mobileTrackingCookieName = 'cookidooMobileAnalyticsEnabled';
+      const performanceCookieGroup = 'C0002';
+      const marketingCookieGroup = 'C0004';
+
+      function getCookie(cName) {
+        const name = cName + "=";
+        const cDecoded = decodeURIComponent(document.cookie);
+        const cArr = cDecoded.split('; ');
+        let res;
+        cArr.forEach(val => {
+          if (val.indexOf(name) === 0) res = val.substring(name.length);
+        })
+        return res
+      }
+
+      function enableAnalyticsStorageConsent() {
+        gtag('consent', 'update', { 'analytics_storage': 'granted' });
+      }
+
+      function disableAnalyticsStorageConsent() {
+        gtag('consent', 'update', { 'analytics_storage': 'denied' });
+      }
+
+      function enableAdsStorageConsent() {
+        gtag('consent', 'update', { 'ad_storage': 'granted' });
+      }
+
+      function disableAdsStorageConsent() {
+        gtag('consent', 'update', { 'ad_storage': 'denied' });
+      }
+
+      function setMobileTracking() {
+        const mobileTrackingConsentValue = getCookie(mobileTrackingCookieName);
+
+        if (mobileTrackingConsentValue) {
+          if (mobileTrackingConsentValue === 'true') {
+            enableAdsStorageConsent();
+            enableAnalyticsStorageConsent();
+          }
+
+          if (mobileTrackingConsentValue === 'false') {
+            disableAdsStorageConsent();
+            disableAnalyticsStorageConsent();
+          }
+        }
+      }
+
+      function setWebTracking(cookieGroups) {
+        if (cookieGroups) {
+          if (cookieGroups.includes(performanceCookieGroup)) {
+            enableAnalyticsStorageConsent();
+          } else {
+            disableAnalyticsStorageConsent();
+          }
+
+          if (cookieGroups.includes(marketingCookieGroup)) {
+            enableAdsStorageConsent();
+          } else {
+            disableAdsStorageConsent();
+          }
+        }
+      }
+
+      function attachOnClickGaEvents() {
+        document.querySelectorAll('[data-ga-event-action]').forEach(node => {
+          // Collect attributes data
+          const eventAction = node.attributes['data-ga-event-action'] && node.attributes['data-ga-event-action'].value;
+          const eventCategory = node.attributes['data-ga-event-category'] && node.attributes['data-ga-event-category'].value;
+          const eventLabel = node.attributes['data-ga-event-label'] && node.attributes['data-ga-event-label'].value;
+          const eventValue = node.attributes['data-ga-event-value'] && node.attributes['data-ga-event-value'].value;
+
+          // Validate
+          if (!eventAction.length) throw Error('Missing ga-event-action value');
+
+          // Prepare event details
+          const details = {};
+          if (eventCategory) details['event_category'] = eventCategory;
+          if (eventLabel) details['event_label'] = eventLabel;
+          if (eventValue) details['value'] = eventValue;
+
+          // Attach click event to gtag
+          node.addEventListener('click', function() {
+            gtag('event', eventAction, details);
+          });
+        });
+      }
+
+      setMobileTracking();
+      setWebTracking(window.OnetrustActiveGroups);
+
+      window.addEventListener('consentChange', function ({ detail }) {
+        setWebTracking(detail.onetrustActiveGroups);
+      });
+
+      window.addEventListener('cookidooMobileAnalyticsChanged', function () {
+        setMobileTracking();
+      });
+
+      attachOnClickGaEvents()
+    `;
+    document.body.appendChild(script);
+  });
+</script>
+
+<script src="https://cdn.cookielaw.org/scripttemplates/6.26.0/otBannerSdk.js" async="" type="text/javascript"></script><style id="onetrust-style">#onetrust-banner-sdk{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}#onetrust-banner-sdk .onetrust-vendors-list-handler{cursor:pointer;color:#1f96db;font-size:inherit;font-weight:bold;text-decoration:none;margin-left:5px}#onetrust-banner-sdk .onetrust-vendors-list-handler:hover{color:#1f96db}#onetrust-banner-sdk:focus{outline:2px solid #000;outline-offset:-2px}#onetrust-banner-sdk a:focus{outline:2px solid #000}#onetrust-banner-sdk #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-pc-btn-handler{outline-offset:1px}#onetrust-banner-sdk .ot-close-icon,#onetrust-pc-sdk .ot-close-icon,#ot-sync-ntfy .ot-close-icon{background-image:url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMzQ4LjMzM3B4IiBoZWlnaHQ9IjM0OC4zMzNweCIgdmlld0JveD0iMCAwIDM0OC4zMzMgMzQ4LjMzNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzQ4LjMzMyAzNDguMzM0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PHBhdGggZmlsbD0iIzU2NTY1NiIgZD0iTTMzNi41NTksNjguNjExTDIzMS4wMTYsMTc0LjE2NWwxMDUuNTQzLDEwNS41NDljMTUuNjk5LDE1LjcwNSwxNS42OTksNDEuMTQ1LDAsNTYuODVjLTcuODQ0LDcuODQ0LTE4LjEyOCwxMS43NjktMjguNDA3LDExLjc2OWMtMTAuMjk2LDAtMjAuNTgxLTMuOTE5LTI4LjQxOS0xMS43NjlMMTc0LjE2NywyMzEuMDAzTDY4LjYwOSwzMzYuNTYzYy03Ljg0Myw3Ljg0NC0xOC4xMjgsMTEuNzY5LTI4LjQxNiwxMS43NjljLTEwLjI4NSwwLTIwLjU2My0zLjkxOS0yOC40MTMtMTEuNzY5Yy0xNS42OTktMTUuNjk4LTE1LjY5OS00MS4xMzksMC01Ni44NWwxMDUuNTQtMTA1LjU0OUwxMS43NzQsNjguNjExYy0xNS42OTktMTUuNjk5LTE1LjY5OS00MS4xNDUsMC01Ni44NDRjMTUuNjk2LTE1LjY4Nyw0MS4xMjctMTUuNjg3LDU2LjgyOSwwbDEwNS41NjMsMTA1LjU1NEwyNzkuNzIxLDExLjc2N2MxNS43MDUtMTUuNjg3LDQxLjEzOS0xNS42ODcsNTYuODMyLDBDMzUyLjI1OCwyNy40NjYsMzUyLjI1OCw1Mi45MTIsMzM2LjU1OSw2OC42MTF6Ii8+PC9nPjwvc3ZnPg==");background-size:contain;background-repeat:no-repeat;background-position:center;height:12px;width:12px}#onetrust-banner-sdk .powered-by-logo,#onetrust-banner-sdk .ot-pc-footer-logo a,#onetrust-pc-sdk .powered-by-logo,#onetrust-pc-sdk .ot-pc-footer-logo a,#ot-sync-ntfy .powered-by-logo,#ot-sync-ntfy .ot-pc-footer-logo a{background-size:contain;background-repeat:no-repeat;background-position:center;height:25px;width:152px;display:block}#onetrust-banner-sdk h3 *,#onetrust-banner-sdk h4 *,#onetrust-banner-sdk h6 *,#onetrust-banner-sdk button *,#onetrust-banner-sdk a[data-parent-id] *,#onetrust-pc-sdk h3 *,#onetrust-pc-sdk h4 *,#onetrust-pc-sdk h6 *,#onetrust-pc-sdk button *,#onetrust-pc-sdk a[data-parent-id] *,#ot-sync-ntfy h3 *,#ot-sync-ntfy h4 *,#ot-sync-ntfy h6 *,#ot-sync-ntfy button *,#ot-sync-ntfy a[data-parent-id] *{font-size:inherit;font-weight:inherit;color:inherit}#onetrust-banner-sdk .ot-hide,#onetrust-pc-sdk .ot-hide,#ot-sync-ntfy .ot-hide{display:none !important}#onetrust-pc-sdk .ot-sdk-row .ot-sdk-column{padding:0}#onetrust-pc-sdk .ot-sdk-container{padding-right:0}#onetrust-pc-sdk .ot-sdk-row{flex-direction:initial;width:100%}#onetrust-pc-sdk [type="checkbox"]:checked,#onetrust-pc-sdk [type="checkbox"]:not(:checked){pointer-events:initial}#onetrust-pc-sdk [type="checkbox"]:disabled+label::before,#onetrust-pc-sdk [type="checkbox"]:disabled+label:after,#onetrust-pc-sdk [type="checkbox"]:disabled+label{pointer-events:none;opacity:0.7}#onetrust-pc-sdk #vendor-list-content{transform:translate3d(0, 0, 0)}#onetrust-pc-sdk li input[type="checkbox"]{z-index:1}#onetrust-pc-sdk li .ot-checkbox label{z-index:2}#onetrust-pc-sdk li .ot-checkbox input[type="checkbox"]{height:auto;width:auto}#onetrust-pc-sdk li .host-title a,#onetrust-pc-sdk li .ot-host-name a,#onetrust-pc-sdk li .accordion-text,#onetrust-pc-sdk li .ot-acc-txt{z-index:2;position:relative}#onetrust-pc-sdk input{margin:3px 0.1ex}#onetrust-pc-sdk .pc-logo,#onetrust-pc-sdk .ot-pc-logo{height:60px;width:180px;background-position:center;background-size:contain;background-repeat:no-repeat}#onetrust-pc-sdk .screen-reader-only,#onetrust-pc-sdk .ot-scrn-rdr,.ot-sdk-cookie-policy .screen-reader-only,.ot-sdk-cookie-policy .ot-scrn-rdr{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}#onetrust-pc-sdk.ot-fade-in,.onetrust-pc-dark-filter.ot-fade-in,#onetrust-banner-sdk.ot-fade-in{animation-name:onetrust-fade-in;animation-duration:400ms;animation-timing-function:ease-in-out}#onetrust-pc-sdk.ot-hide{display:none !important}.onetrust-pc-dark-filter.ot-hide{display:none !important}#ot-sdk-btn.ot-sdk-show-settings,#ot-sdk-btn.optanon-show-settings{color:#68b631;border:1px solid #68b631;height:auto;white-space:normal;word-wrap:break-word;padding:0.8em 2em;font-size:0.8em;line-height:1.2;cursor:pointer;-moz-transition:0.1s ease;-o-transition:0.1s ease;-webkit-transition:1s ease;transition:0.1s ease}#ot-sdk-btn.ot-sdk-show-settings:hover,#ot-sdk-btn.optanon-show-settings:hover{color:#fff;background-color:#68b631}.onetrust-pc-dark-filter{background:rgba(0,0,0,0.5);z-index:2147483646;width:100%;height:100%;overflow:hidden;position:fixed;top:0;bottom:0;left:0}@keyframes onetrust-fade-in{0%{opacity:0}100%{opacity:1}}.ot-cookie-label{text-decoration:underline}@media only screen and (min-width: 426px) and (max-width: 896px) and (orientation: landscape){#onetrust-pc-sdk p{font-size:0.75em}}#onetrust-banner-sdk .banner-option-input:focus+label{outline:1px solid #000;outline-style:auto}.category-vendors-list-handler+a:focus,.category-vendors-list-handler+a:focus-visible{outline:2px solid #000}
+#onetrust-banner-sdk,#onetrust-pc-sdk,#ot-sdk-cookie-policy,#ot-sync-ntfy{font-size:16px}#onetrust-banner-sdk *,#onetrust-banner-sdk ::after,#onetrust-banner-sdk ::before,#onetrust-pc-sdk *,#onetrust-pc-sdk ::after,#onetrust-pc-sdk ::before,#ot-sdk-cookie-policy *,#ot-sdk-cookie-policy ::after,#ot-sdk-cookie-policy ::before,#ot-sync-ntfy *,#ot-sync-ntfy ::after,#ot-sync-ntfy ::before{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}#onetrust-banner-sdk div,#onetrust-banner-sdk span,#onetrust-banner-sdk h1,#onetrust-banner-sdk h2,#onetrust-banner-sdk h3,#onetrust-banner-sdk h4,#onetrust-banner-sdk h5,#onetrust-banner-sdk h6,#onetrust-banner-sdk p,#onetrust-banner-sdk img,#onetrust-banner-sdk svg,#onetrust-banner-sdk button,#onetrust-banner-sdk section,#onetrust-banner-sdk a,#onetrust-banner-sdk label,#onetrust-banner-sdk input,#onetrust-banner-sdk ul,#onetrust-banner-sdk li,#onetrust-banner-sdk nav,#onetrust-banner-sdk table,#onetrust-banner-sdk thead,#onetrust-banner-sdk tr,#onetrust-banner-sdk td,#onetrust-banner-sdk tbody,#onetrust-banner-sdk .ot-main-content,#onetrust-banner-sdk .ot-toggle,#onetrust-banner-sdk #ot-content,#onetrust-banner-sdk #ot-pc-content,#onetrust-banner-sdk .checkbox,#onetrust-pc-sdk div,#onetrust-pc-sdk span,#onetrust-pc-sdk h1,#onetrust-pc-sdk h2,#onetrust-pc-sdk h3,#onetrust-pc-sdk h4,#onetrust-pc-sdk h5,#onetrust-pc-sdk h6,#onetrust-pc-sdk p,#onetrust-pc-sdk img,#onetrust-pc-sdk svg,#onetrust-pc-sdk button,#onetrust-pc-sdk section,#onetrust-pc-sdk a,#onetrust-pc-sdk label,#onetrust-pc-sdk input,#onetrust-pc-sdk ul,#onetrust-pc-sdk li,#onetrust-pc-sdk nav,#onetrust-pc-sdk table,#onetrust-pc-sdk thead,#onetrust-pc-sdk tr,#onetrust-pc-sdk td,#onetrust-pc-sdk tbody,#onetrust-pc-sdk .ot-main-content,#onetrust-pc-sdk .ot-toggle,#onetrust-pc-sdk #ot-content,#onetrust-pc-sdk #ot-pc-content,#onetrust-pc-sdk .checkbox,#ot-sdk-cookie-policy div,#ot-sdk-cookie-policy span,#ot-sdk-cookie-policy h1,#ot-sdk-cookie-policy h2,#ot-sdk-cookie-policy h3,#ot-sdk-cookie-policy h4,#ot-sdk-cookie-policy h5,#ot-sdk-cookie-policy h6,#ot-sdk-cookie-policy p,#ot-sdk-cookie-policy img,#ot-sdk-cookie-policy svg,#ot-sdk-cookie-policy button,#ot-sdk-cookie-policy section,#ot-sdk-cookie-policy a,#ot-sdk-cookie-policy label,#ot-sdk-cookie-policy input,#ot-sdk-cookie-policy ul,#ot-sdk-cookie-policy li,#ot-sdk-cookie-policy nav,#ot-sdk-cookie-policy table,#ot-sdk-cookie-policy thead,#ot-sdk-cookie-policy tr,#ot-sdk-cookie-policy td,#ot-sdk-cookie-policy tbody,#ot-sdk-cookie-policy .ot-main-content,#ot-sdk-cookie-policy .ot-toggle,#ot-sdk-cookie-policy #ot-content,#ot-sdk-cookie-policy #ot-pc-content,#ot-sdk-cookie-policy .checkbox,#ot-sync-ntfy div,#ot-sync-ntfy span,#ot-sync-ntfy h1,#ot-sync-ntfy h2,#ot-sync-ntfy h3,#ot-sync-ntfy h4,#ot-sync-ntfy h5,#ot-sync-ntfy h6,#ot-sync-ntfy p,#ot-sync-ntfy img,#ot-sync-ntfy svg,#ot-sync-ntfy button,#ot-sync-ntfy section,#ot-sync-ntfy a,#ot-sync-ntfy label,#ot-sync-ntfy input,#ot-sync-ntfy ul,#ot-sync-ntfy li,#ot-sync-ntfy nav,#ot-sync-ntfy table,#ot-sync-ntfy thead,#ot-sync-ntfy tr,#ot-sync-ntfy td,#ot-sync-ntfy tbody,#ot-sync-ntfy .ot-main-content,#ot-sync-ntfy .ot-toggle,#ot-sync-ntfy #ot-content,#ot-sync-ntfy #ot-pc-content,#ot-sync-ntfy .checkbox{font-family:inherit;font-weight:normal;-webkit-font-smoothing:auto;letter-spacing:normal;line-height:normal;padding:0;margin:0;height:auto;min-height:0;max-height:none;width:auto;min-width:0;max-width:none;border-radius:0;border:none;clear:none;float:none;position:static;bottom:auto;left:auto;right:auto;top:auto;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;white-space:normal;background:none;overflow:visible;vertical-align:baseline;visibility:visible;z-index:auto;box-shadow:none}#onetrust-banner-sdk label:before,#onetrust-banner-sdk label:after,#onetrust-banner-sdk .checkbox:after,#onetrust-banner-sdk .checkbox:before,#onetrust-pc-sdk label:before,#onetrust-pc-sdk label:after,#onetrust-pc-sdk .checkbox:after,#onetrust-pc-sdk .checkbox:before,#ot-sdk-cookie-policy label:before,#ot-sdk-cookie-policy label:after,#ot-sdk-cookie-policy .checkbox:after,#ot-sdk-cookie-policy .checkbox:before,#ot-sync-ntfy label:before,#ot-sync-ntfy label:after,#ot-sync-ntfy .checkbox:after,#ot-sync-ntfy .checkbox:before{content:"";content:none}
+#onetrust-banner-sdk .ot-sdk-container,#onetrust-pc-sdk .ot-sdk-container,#ot-sdk-cookie-policy .ot-sdk-container{position:relative;width:100%;max-width:100%;margin:0 auto;padding:0 20px;box-sizing:border-box}#onetrust-banner-sdk .ot-sdk-column,#onetrust-banner-sdk .ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-column,#onetrust-pc-sdk .ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-column,#ot-sdk-cookie-policy .ot-sdk-columns{width:100%;float:left;box-sizing:border-box;padding:0;display:initial}@media (min-width: 400px){#onetrust-banner-sdk .ot-sdk-container,#onetrust-pc-sdk .ot-sdk-container,#ot-sdk-cookie-policy .ot-sdk-container{width:90%;padding:0}}@media (min-width: 550px){#onetrust-banner-sdk .ot-sdk-container,#onetrust-pc-sdk .ot-sdk-container,#ot-sdk-cookie-policy .ot-sdk-container{width:100%}#onetrust-banner-sdk .ot-sdk-column,#onetrust-banner-sdk .ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-column,#onetrust-pc-sdk .ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-column,#ot-sdk-cookie-policy .ot-sdk-columns{margin-left:4%}#onetrust-banner-sdk .ot-sdk-column:first-child,#onetrust-banner-sdk .ot-sdk-columns:first-child,#onetrust-pc-sdk .ot-sdk-column:first-child,#onetrust-pc-sdk .ot-sdk-columns:first-child,#ot-sdk-cookie-policy .ot-sdk-column:first-child,#ot-sdk-cookie-policy .ot-sdk-columns:first-child{margin-left:0}#onetrust-banner-sdk .ot-sdk-two.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-two.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-two.ot-sdk-columns{width:13.3333333333%}#onetrust-banner-sdk .ot-sdk-three.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-three.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-three.ot-sdk-columns{width:22%}#onetrust-banner-sdk .ot-sdk-four.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-four.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-four.ot-sdk-columns{width:30.6666666667%}#onetrust-banner-sdk .ot-sdk-eight.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-eight.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-eight.ot-sdk-columns{width:65.3333333333%}#onetrust-banner-sdk .ot-sdk-nine.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-nine.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-nine.ot-sdk-columns{width:74%}#onetrust-banner-sdk .ot-sdk-ten.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-ten.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-ten.ot-sdk-columns{width:82.6666666667%}#onetrust-banner-sdk .ot-sdk-eleven.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-eleven.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-eleven.ot-sdk-columns{width:91.3333333333%}#onetrust-banner-sdk .ot-sdk-twelve.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-twelve.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-twelve.ot-sdk-columns{width:100%;margin-left:0}}#onetrust-banner-sdk h1,#onetrust-banner-sdk h2,#onetrust-banner-sdk h3,#onetrust-banner-sdk h4,#onetrust-banner-sdk h5,#onetrust-banner-sdk h6,#onetrust-pc-sdk h1,#onetrust-pc-sdk h2,#onetrust-pc-sdk h3,#onetrust-pc-sdk h4,#onetrust-pc-sdk h5,#onetrust-pc-sdk h6,#ot-sdk-cookie-policy h1,#ot-sdk-cookie-policy h2,#ot-sdk-cookie-policy h3,#ot-sdk-cookie-policy h4,#ot-sdk-cookie-policy h5,#ot-sdk-cookie-policy h6{margin-top:0;font-weight:600;font-family:inherit}#onetrust-banner-sdk h1,#onetrust-pc-sdk h1,#ot-sdk-cookie-policy h1{font-size:1.5rem;line-height:1.2}#onetrust-banner-sdk h2,#onetrust-pc-sdk h2,#ot-sdk-cookie-policy h2{font-size:1.5rem;line-height:1.25}#onetrust-banner-sdk h3,#onetrust-pc-sdk h3,#ot-sdk-cookie-policy h3{font-size:1.5rem;line-height:1.3}#onetrust-banner-sdk h4,#onetrust-pc-sdk h4,#ot-sdk-cookie-policy h4{font-size:1.5rem;line-height:1.35}#onetrust-banner-sdk h5,#onetrust-pc-sdk h5,#ot-sdk-cookie-policy h5{font-size:1.5rem;line-height:1.5}#onetrust-banner-sdk h6,#onetrust-pc-sdk h6,#ot-sdk-cookie-policy h6{font-size:1.5rem;line-height:1.6}@media (min-width: 550px){#onetrust-banner-sdk h1,#onetrust-pc-sdk h1,#ot-sdk-cookie-policy h1{font-size:1.5rem}#onetrust-banner-sdk h2,#onetrust-pc-sdk h2,#ot-sdk-cookie-policy h2{font-size:1.5rem}#onetrust-banner-sdk h3,#onetrust-pc-sdk h3,#ot-sdk-cookie-policy h3{font-size:1.5rem}#onetrust-banner-sdk h4,#onetrust-pc-sdk h4,#ot-sdk-cookie-policy h4{font-size:1.5rem}#onetrust-banner-sdk h5,#onetrust-pc-sdk h5,#ot-sdk-cookie-policy h5{font-size:1.5rem}#onetrust-banner-sdk h6,#onetrust-pc-sdk h6,#ot-sdk-cookie-policy h6{font-size:1.5rem}}#onetrust-banner-sdk p,#onetrust-pc-sdk p,#ot-sdk-cookie-policy p{margin:0 0 1em 0;font-family:inherit;line-height:normal}#onetrust-banner-sdk a,#onetrust-pc-sdk a,#ot-sdk-cookie-policy a{color:#565656;text-decoration:underline}#onetrust-banner-sdk a:hover,#onetrust-pc-sdk a:hover,#ot-sdk-cookie-policy a:hover{color:#565656;text-decoration:none}#onetrust-banner-sdk .ot-sdk-button,#onetrust-banner-sdk button,#onetrust-pc-sdk .ot-sdk-button,#onetrust-pc-sdk button,#ot-sdk-cookie-policy .ot-sdk-button,#ot-sdk-cookie-policy button{margin-bottom:1rem;font-family:inherit}#onetrust-banner-sdk .ot-sdk-button,#onetrust-banner-sdk button,#onetrust-pc-sdk .ot-sdk-button,#onetrust-pc-sdk button,#ot-sdk-cookie-policy .ot-sdk-button,#ot-sdk-cookie-policy button{display:inline-block;height:38px;padding:0 30px;color:#555;text-align:center;font-size:0.9em;font-weight:400;line-height:38px;letter-spacing:0.01em;text-decoration:none;white-space:nowrap;background-color:transparent;border-radius:2px;border:1px solid #bbb;cursor:pointer;box-sizing:border-box}#onetrust-banner-sdk .ot-sdk-button:hover,#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:hover,#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:focus,#onetrust-pc-sdk .ot-sdk-button:hover,#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:hover,#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:focus,#ot-sdk-cookie-policy .ot-sdk-button:hover,#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:hover,#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:focus{color:#333;border-color:#888;opacity:0.7}#onetrust-banner-sdk .ot-sdk-button:focus,#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:focus,#onetrust-pc-sdk .ot-sdk-button:focus,#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:focus,#ot-sdk-cookie-policy .ot-sdk-button:focus,#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:focus{outline:2px solid #000}#onetrust-banner-sdk .ot-sdk-button.ot-sdk-button-primary,#onetrust-banner-sdk button.ot-sdk-button-primary,#onetrust-banner-sdk input[type="submit"].ot-sdk-button-primary,#onetrust-banner-sdk input[type="reset"].ot-sdk-button-primary,#onetrust-banner-sdk input[type="button"].ot-sdk-button-primary,#onetrust-pc-sdk .ot-sdk-button.ot-sdk-button-primary,#onetrust-pc-sdk button.ot-sdk-button-primary,#onetrust-pc-sdk input[type="submit"].ot-sdk-button-primary,#onetrust-pc-sdk input[type="reset"].ot-sdk-button-primary,#onetrust-pc-sdk input[type="button"].ot-sdk-button-primary,#ot-sdk-cookie-policy .ot-sdk-button.ot-sdk-button-primary,#ot-sdk-cookie-policy button.ot-sdk-button-primary,#ot-sdk-cookie-policy input[type="submit"].ot-sdk-button-primary,#ot-sdk-cookie-policy input[type="reset"].ot-sdk-button-primary,#ot-sdk-cookie-policy input[type="button"].ot-sdk-button-primary{color:#fff;background-color:#33c3f0;border-color:#33c3f0}#onetrust-banner-sdk .ot-sdk-button.ot-sdk-button-primary:hover,#onetrust-banner-sdk button.ot-sdk-button-primary:hover,#onetrust-banner-sdk input[type="submit"].ot-sdk-button-primary:hover,#onetrust-banner-sdk input[type="reset"].ot-sdk-button-primary:hover,#onetrust-banner-sdk input[type="button"].ot-sdk-button-primary:hover,#onetrust-banner-sdk .ot-sdk-button.ot-sdk-button-primary:focus,#onetrust-banner-sdk button.ot-sdk-button-primary:focus,#onetrust-banner-sdk input[type="submit"].ot-sdk-button-primary:focus,#onetrust-banner-sdk input[type="reset"].ot-sdk-button-primary:focus,#onetrust-banner-sdk input[type="button"].ot-sdk-button-primary:focus,#onetrust-pc-sdk .ot-sdk-button.ot-sdk-button-primary:hover,#onetrust-pc-sdk button.ot-sdk-button-primary:hover,#onetrust-pc-sdk input[type="submit"].ot-sdk-button-primary:hover,#onetrust-pc-sdk input[type="reset"].ot-sdk-button-primary:hover,#onetrust-pc-sdk input[type="button"].ot-sdk-button-primary:hover,#onetrust-pc-sdk .ot-sdk-button.ot-sdk-button-primary:focus,#onetrust-pc-sdk button.ot-sdk-button-primary:focus,#onetrust-pc-sdk input[type="submit"].ot-sdk-button-primary:focus,#onetrust-pc-sdk input[type="reset"].ot-sdk-button-primary:focus,#onetrust-pc-sdk input[type="button"].ot-sdk-button-primary:focus,#ot-sdk-cookie-policy .ot-sdk-button.ot-sdk-button-primary:hover,#ot-sdk-cookie-policy button.ot-sdk-button-primary:hover,#ot-sdk-cookie-policy input[type="submit"].ot-sdk-button-primary:hover,#ot-sdk-cookie-policy input[type="reset"].ot-sdk-button-primary:hover,#ot-sdk-cookie-policy input[type="button"].ot-sdk-button-primary:hover,#ot-sdk-cookie-policy .ot-sdk-button.ot-sdk-button-primary:focus,#ot-sdk-cookie-policy button.ot-sdk-button-primary:focus,#ot-sdk-cookie-policy input[type="submit"].ot-sdk-button-primary:focus,#ot-sdk-cookie-policy input[type="reset"].ot-sdk-button-primary:focus,#ot-sdk-cookie-policy input[type="button"].ot-sdk-button-primary:focus{color:#fff;background-color:#1eaedb;border-color:#1eaedb}#onetrust-banner-sdk input[type="text"],#onetrust-pc-sdk input[type="text"],#ot-sdk-cookie-policy input[type="text"]{height:38px;padding:6px 10px;background-color:#fff;border:1px solid #d1d1d1;border-radius:4px;box-shadow:none;box-sizing:border-box}#onetrust-banner-sdk input[type="text"],#onetrust-pc-sdk input[type="text"],#ot-sdk-cookie-policy input[type="text"]{-webkit-appearance:none;-moz-appearance:none;appearance:none}#onetrust-banner-sdk input[type="text"]:focus,#onetrust-pc-sdk input[type="text"]:focus,#ot-sdk-cookie-policy input[type="text"]:focus{border:1px solid #000;outline:0}#onetrust-banner-sdk label,#onetrust-pc-sdk label,#ot-sdk-cookie-policy label{display:block;margin-bottom:0.5rem;font-weight:600}#onetrust-banner-sdk input[type="checkbox"],#onetrust-pc-sdk input[type="checkbox"],#ot-sdk-cookie-policy input[type="checkbox"]{display:inline}#onetrust-banner-sdk ul,#onetrust-pc-sdk ul,#ot-sdk-cookie-policy ul{list-style:circle inside}#onetrust-banner-sdk ul,#onetrust-pc-sdk ul,#ot-sdk-cookie-policy ul{padding-left:0;margin-top:0}#onetrust-banner-sdk ul ul,#onetrust-pc-sdk ul ul,#ot-sdk-cookie-policy ul ul{margin:1.5rem 0 1.5rem 3rem;font-size:90%}#onetrust-banner-sdk li,#onetrust-pc-sdk li,#ot-sdk-cookie-policy li{margin-bottom:1rem}#onetrust-banner-sdk th,#onetrust-banner-sdk td,#onetrust-pc-sdk th,#onetrust-pc-sdk td,#ot-sdk-cookie-policy th,#ot-sdk-cookie-policy td{padding:12px 15px;text-align:left;border-bottom:1px solid #e1e1e1}#onetrust-banner-sdk button,#onetrust-pc-sdk button,#ot-sdk-cookie-policy button{margin-bottom:1rem;font-family:inherit}#onetrust-banner-sdk .ot-sdk-container:after,#onetrust-banner-sdk .ot-sdk-row:after,#onetrust-pc-sdk .ot-sdk-container:after,#onetrust-pc-sdk .ot-sdk-row:after,#ot-sdk-cookie-policy .ot-sdk-container:after,#ot-sdk-cookie-policy .ot-sdk-row:after{content:"";display:table;clear:both}#onetrust-banner-sdk .ot-sdk-row,#onetrust-pc-sdk .ot-sdk-row,#ot-sdk-cookie-policy .ot-sdk-row{margin:0;max-width:none;display:block}
+.ot-sdk-cookie-policy{font-family:inherit;font-size:16px}.ot-sdk-cookie-policy.otRelFont{font-size:1rem}.ot-sdk-cookie-policy h3,.ot-sdk-cookie-policy h4,.ot-sdk-cookie-policy h6,.ot-sdk-cookie-policy p,.ot-sdk-cookie-policy li,.ot-sdk-cookie-policy a,.ot-sdk-cookie-policy th,.ot-sdk-cookie-policy #cookie-policy-description,.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group,.ot-sdk-cookie-policy #cookie-policy-title{color:dimgray}.ot-sdk-cookie-policy #cookie-policy-description{margin-bottom:1em}.ot-sdk-cookie-policy h4{font-size:1.2em}.ot-sdk-cookie-policy h6{font-size:1em;margin-top:2em}.ot-sdk-cookie-policy th{min-width:75px}.ot-sdk-cookie-policy a,.ot-sdk-cookie-policy a:hover{background:#fff}.ot-sdk-cookie-policy thead{background-color:#f6f6f4;font-weight:bold}.ot-sdk-cookie-policy .ot-mobile-border{display:none}.ot-sdk-cookie-policy section{margin-bottom:2em}.ot-sdk-cookie-policy table{border-collapse:inherit}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy{font-family:inherit;font-size:1rem}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h3,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h4,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h6,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy p,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy li,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy th,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-description,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-title{color:dimgray}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-description{margin-bottom:1em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-subgroup{margin-left:1.5em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-description,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group-desc,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-table-header,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy span,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td{font-size:.9em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td span,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td a{font-size:inherit}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group{font-size:1em;margin-bottom:.6em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-title{margin-bottom:1.2em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy>section{margin-bottom:1em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy th{min-width:75px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a:hover{background:#fff}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy thead{background-color:#f6f6f4;font-weight:bold}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-mobile-border{display:none}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy section{margin-bottom:2em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-subgroup ul li{list-style:disc;margin-left:1.5em}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-subgroup ul li h4{display:inline-block}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table{border-collapse:inherit;margin:auto;border:1px solid #d7d7d7;border-radius:5px;border-spacing:initial;width:100%;overflow:hidden}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table th,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table td{border-bottom:1px solid #d7d7d7;border-right:1px solid #d7d7d7}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr:last-child td{border-bottom:0px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr th:last-child,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr td:last-child{border-right:0px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table .ot-host,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table .ot-cookies-type{width:25%}.ot-sdk-cookie-policy[dir=rtl]{text-align:left}#ot-sdk-cookie-policy h3{font-size:1.5em}@media only screen and (max-width: 530px){.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) table,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) thead,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tbody,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) th,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) td,.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr{display:block}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) thead tr{position:absolute;top:-9999px;left:-9999px}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr{margin:0 0 1em 0}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr:nth-child(odd),.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) tr:nth-child(odd) a{background:#f6f6f4}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) td{border:none;border-bottom:1px solid #eee;position:relative;padding-left:50%}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) td:before{position:absolute;height:100%;left:6px;width:40%;padding-right:10px}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) .ot-mobile-border{display:inline-block;background-color:#e4e4e4;position:absolute;height:100%;top:0;left:45%;width:2px}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) td:before{content:attr(data-label);font-weight:bold}.ot-sdk-cookie-policy:not(#ot-sdk-cookie-policy-v2) li{word-break:break-word;word-wrap:break-word}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table{overflow:hidden}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table td{border:none;border-bottom:1px solid #d7d7d7}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy thead,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy tbody,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy th,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy tr{display:block}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table .ot-host,#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table .ot-cookies-type{width:auto}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy tr{margin:0 0 1em 0}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td:before{height:100%;width:40%;padding-right:10px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td:before{content:attr(data-label);font-weight:bold}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy li{word-break:break-word;word-wrap:break-word}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy thead tr{position:absolute;top:-9999px;left:-9999px;z-index:-9999}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr:last-child td{border-bottom:1px solid #d7d7d7;border-right:0px}#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table tr:last-child td:last-child{border-bottom:0px}}
+                
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h5,
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy h6,
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy li,
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy p,
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a,
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy span,
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy td,
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-description {
+                        color: #696969;
+                    }
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy th {
+                        color: #696969;
+                    }
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group {
+                        color: #696969;
+                    }
+                    
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-title {
+                            color: #696969;
+                        }
+                    
+            
+                    #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table th {
+                            background-color: #F8F8F8;
+                        }
+                    
+            </style></head>
+<body class="no-touch js-focus-visible" loading="true">
+  <core-user-info condition="html.is-authenticated" community-profile="/community/profile/en-GB">
+  </core-user-info>
+  <header tabindex="-1" class="page-header">
+    <div class="page-header__content">
+      <a class="logo page-header__home" href="/foundation/en-GB" aria-label="Link to the home page">
+        <img class="logo" src="https://patternlib-all.prod.external.eu-tm-prod.vorwerk-digital.com/logo_thermomix-647b6c2b12e9c4521859a52248f64587.svg" alt="Thermomix®">
+      </a>
+      <core-nav class="page-header__nav">
+        <nav class="core-nav__nav" role="navigation">
+          <button class="core-nav__trigger" aria-haspopup="true" aria-expanded="false">Menu</button>
+          <div class="core-nav__container">
+              <ul class="core-nav__main-links authenticated-only">
+                <li class="core-nav__item">
+                  <a href="/foundation/en-GB" class="core-nav__link">Explore</a>
+                </li>
+                <li class="core-nav__item">
+                  <a href="/organize/en-GB/my-recipes" class="core-nav__link">My Recipes</a>
+                </li>
+                <li class="core-nav__item">
+                  <a href="/planning/en-GB/my-week" class="core-nav__link">My Week</a>
+                </li>
+              </ul>
+              <core-user-profile class="authenticated-only">
+                <core-dropdown-menu class="core-nav__dropdown core-nav__dropdown--profile" align="bottom-right">
+                  <button class="core-dropdown-menu__trigger core-nav__dropdown-trigger" aria-haspopup="true" aria-expanded="false">
+                    <span class="core-nav__dropdown-trigger-icon" aria-hidden="true"></span>
+                    <img class="core-nav__dropdown-trigger-picture" src="" alt="">
+                    <span class="core-dropdown-menu__trigger-text"></span>
+                  </button>
+                  <div class="core-dropdown-menu__content core-nav__dropdown-content">
+                    <ul class="core-dropdown-list core-nav__dropdown-list">
+                      <li class="core-community-profile__link">
+                        <a href="/community/profile/en-GB" class="core-dropdown-list__item core-nav__link core-nav__link--community">
+                          <core-community-profile>
+                            <span class="core-community-profile__icon" aria-hidden="true"></span>
+                            <img class="core-community-profile__picture" src="" alt="">
+                            <div class="core-community-profile__heading-group">
+                              <span class="core-community-profile__header">Profile</span>
+                              <span class="core-community-profile__subheader">View profile</span>
+                            </div>
+                          </core-community-profile>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/profile/en-GB/account" class="core-dropdown-list__item core-nav__link">Account</a>
+                      </li>
+                      <li>
+                        <a href="/foundation/en-GB/help" class="core-dropdown-list__item core-nav__link">Help</a>
+                      </li>
+                      <li>
+                        <a href="/profile/logout" class="core-dropdown-list__item core-nav__link">Sign out</a>
+                      </li>
+                    </ul>
+                  </div>
+                </core-dropdown-menu>
+              </core-user-profile>
+              <ul class="core-nav__main-links unauthenticated-only">
+                <li class="core-nav__item">
+                  <a href="/foundation/en-GB" class="core-nav__link">Explore</a>
+                </li>
+                <li class="core-nav__item">
+                  <a href="/foundation/en-GB/membership" class="core-nav__link">Membership</a>
+                </li>
+                <li class="core-nav__item">
+                  <a href="/foundation/en-GB/help" class="core-nav__link">Help</a>
+                </li>
+              </ul>
+              <ul class="core-nav__links unauthenticated-only">
+                <li class="core-nav__item">
+                  <a href="/profile/en-GB/register" class="core-nav__link">Sign up</a>
+                </li>
+                <li class="core-nav__item">
+                  <a href="/profile/en-GB/login?redirectAfterLogin=https%3A%2F%2Fcookidoo.co.uk%2Fsearch%2Fen-GB" class="core-nav__link">Login</a>
+                </li>
+              </ul>
+          </div>
+          <div role="separator" aria-orientation="vertical" class="core-nav__separator separator-vertical separator-vertical--silver-20"></div>
+        </nav>
+      </core-nav>
+      <a class="page-header__search" href="/search/en-GB" aria-label="Search" aria-current="page"></a>
+    </div>
+  </header>
+<div class="l-content">
+  <search-bar class="search-bar">
+    <form class="search-bar__form" name="search-bar-form" autocomplete="off" action="#">
+      <core-search-bar custom="true" min-phrase-length="3">
+        <core-dropdown-text class="core-search-bar__context">
+          <button class="core-dropdown-text__trigger" type="button" aria-haspopup="listbox" aria-expanded="false"><span class="icon icon--my-recipes" aria-hidden="true"></span><span>Recipes</span></button>
+          <div class="core-dropdown-text__content">
+            <ul class="core-dropdown-list" role="listbox">
+              <li>
+                <label class="core-dropdown-list__item" aria-selected="true">
+                  <span class="icon icon--my-recipes" aria-hidden="true"></span>Recipes
+                  <input type="radio" name="context" value="recipes" checked="">
+                </label>
+              </li>
+              <li>
+                <label class="core-dropdown-list__item" aria-selected="false">
+                  <span class="icon icon--collections" aria-hidden="true"></span>Collections
+                  <input type="radio" name="context" value="collections">
+                </label>
+              </li>
+                <li>
+                  <label class="core-dropdown-list__item" aria-selected="false">
+                    <span class="icon icon--editorial" aria-hidden="true"></span>Articles
+                    <input type="radio" name="context" value="editorial">
+                  </label>
+                </li>
+            </ul>
+          </div>
+        </core-dropdown-text>
+        <div class="core-search-bar__input-wrapper">
+          <core-autocomplete class="core-search-bar__autocomplete" role="combobox" aria-expanded="false">
+            <core-resettable-input class="core-autocomplete__resettable-input">
+              <input class="core-resettable-input__input core-autocomplete__input" type="search" name="query" aria-label="Search Cookidoo®" placeholder="Search Cookidoo®" aria-autocomplete="list" aria-haspopup="listbox" role="searchbox">
+              <button class="core-resettable-input__reset core-autocomplete__reset" type="button"></button>
+            </core-resettable-input>
+          <ul class="core-autocomplete__suggestions" role="listbox"></ul></core-autocomplete>
+          <button class="button button--primary" type="submit">Search</button>
+        </div>
+        <button type="button" class="filter-button__device">Filters<span class="selected-number">1</span></button>
+      </core-search-bar>
+    </form>
+  </search-bar>
+</div>
+
+<div class="keyboard-container" hidden=""></div>
+<div class="l-main l-wrapper">
+  <div class="filters-header">
+    <filter-button role="button" class="filter-button" tabindex="0">Filters<span class="filter-button__selected-number">1</span></filter-button>
+    <selected-badges class="selected-badges ">
+      <div class="selected-badges__item" data-key="languages" data-value="en" role="button" data-multi="multi" tabindex="0">
+          
+          
+          
+
+            English
+                </div>
+  <search-results-count device="desktop" class="search-results-count--desktop">
+  <span class="search-results-count__hits">9542</span>&nbsp;results found
+</search-results-count>
+</selected-badges>
+    <sort-by device="desktop" class="sortby">
+  <span class="sortby-label">Sort by:</span>
+  <core-dropdown-text class="sortby-box" align="bottom-right">
+    <button class="core-dropdown-text__trigger" type="button" aria-haspopup="listbox" aria-expanded="false">Newest</button>
+    <div class="core-dropdown-text__content">
+      <ul class="core-dropdown-list" role="listbox">
+          <li>
+            <label for="relevance" class="core-dropdown-list__item" aria-selected="false">
+              Relevance
+              <input id="relevance" type="radio" name="sortby" value="">
+            </label>
+          </li>
+          <li>
+            <label for="publishedAt" class="core-dropdown-list__item" aria-selected="true">
+              Newest
+
+              <input id="publishedAt" type="radio" name="sortby" value="publishedAt" checked="">
+            </label>
+          </li>
+          <li>
+            <label for="title" class="core-dropdown-list__item" aria-selected="false">
+              Name
+              <input id="title" type="radio" name="sortby" value="title">
+            </label>
+          </li>
+          <li>
+            <label for="totalTime" class="core-dropdown-list__item" aria-selected="false">
+              Total time, shortest
+              <input id="totalTime" type="radio" name="sortby" value="totalTime">
+            </label>
+          </li>
+          <li>
+            <label for="preparationTime" class="core-dropdown-list__item" aria-selected="false">
+              Prep. time, shortest
+              <input id="preparationTime" type="radio" name="sortby" value="preparationTime">
+            </label>
+          </li>
+          <li>
+            <label for="rating" class="core-dropdown-list__item" aria-selected="false">
+              Best rated
+              <input id="rating" type="radio" name="sortby" value="rating">
+            </label>
+          </li>
+      </ul>
+    </div>
+  </core-dropdown-text>
+</sort-by>
+    <sort-by device="mobile" class="sortby sortby--mobile">
+  <core-dropdown-text class="sortby-box" align="bottom-right">
+    <button class="core-dropdown-text__trigger trigger--mobile" type="button" aria-haspopup="listbox" aria-expanded="false">Newest</button>
+    <div class="core-dropdown-text__content">
+      <ul class="core-dropdown-list" role="listbox">
+          <li>
+            <label for="relevance" class="core-dropdown-list__item" aria-selected="false">
+              Relevance
+              <input id="relevance" type="radio" name="sortby" value="">
+            </label>
+          </li>
+          <li>
+            <label for="publishedAt" class="core-dropdown-list__item" aria-selected="true">
+              Newest
+
+              <input id="publishedAt" type="radio" name="sortby" value="publishedAt" checked="">
+            </label>
+          </li>
+          <li>
+            <label for="title" class="core-dropdown-list__item" aria-selected="false">
+              Name
+              <input id="title" type="radio" name="sortby" value="title">
+            </label>
+          </li>
+          <li>
+            <label for="totalTime" class="core-dropdown-list__item" aria-selected="false">
+              Total time, shortest
+              <input id="totalTime" type="radio" name="sortby" value="totalTime">
+            </label>
+          </li>
+          <li>
+            <label for="preparationTime" class="core-dropdown-list__item" aria-selected="false">
+              Prep. time, shortest
+              <input id="preparationTime" type="radio" name="sortby" value="preparationTime">
+            </label>
+          </li>
+          <li>
+            <label for="rating" class="core-dropdown-list__item" aria-selected="false">
+              Best rated
+              <input id="rating" type="radio" name="sortby" value="rating">
+            </label>
+          </li>
+      </ul>
+    </div>
+  </core-dropdown-text>
+</sort-by>
+  </div>
+
+  <hr class="filters-separator separator--silver-20">
+
+  <div class="g-wrapper core-tiles-wrapper">
+    <div class="g-container g-container--search-wrapper">
+        <search-results-count device="mobile" class="search-results-count--mobile">
+    <span class="search-results-count__hits">9542</span>&nbsp;results found
+  </search-results-count>
+    </div>
+    <search-save-page-number-on-exit>
+      <div class="g-container loader-box">
+        <core-loader class="core-loader--spinner core-loader__before"></core-loader>
+      </div>
+      <search-results-list pagination="false" hits-per-page="20" default-query="countries=gb" with-new-lang-list="">
+      
+        <div class="g-container load-more--button load-more__previous--button">
+  <a href="" id="load-more-page" class="button g-col-4 g-md-col-4 g-xs-col-12 load-more__previous">
+    <span>LOAD PREVIOUS</span>
+  </a>
+</div><core-tiles-list><core-tile class="core-tile--expanded" id="r760972" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="81" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r760972" published-at="2022-01-14T06:00:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r760972
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/b4241a1beeb4544dfd991a69bdcb8475/Derivates/88ee877ae326bbc50cba6bd0f59085881046a077" alt="Winter Radish, Citrus and Cashew Cream (Matthew Kenney) Metric" title="Winter Radish, Citrus and Cashew Cream (Matthew Kenney) Metric" sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px" srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/b4241a1beeb4544dfd991a69bdcb8475/Derivates/88ee877ae326bbc50cba6bd0f59085881046a077 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/b4241a1beeb4544dfd991a69bdcb8475/Derivates/88ee877ae326bbc50cba6bd0f59085881046a077 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/b4241a1beeb4544dfd991a69bdcb8475/Derivates/88ee877ae326bbc50cba6bd0f59085881046a077 552w">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Winter Radish, Citrus and Cashew Cream (Matthew Kenney) Metric"
+            title="Winter Radish, Citrus and Cashew Cream (Matthew Kenney) Metric"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/b4241a1beeb4544dfd991a69bdcb8475/Derivates/88ee877ae326bbc50cba6bd0f59085881046a077"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/b4241a1beeb4544dfd991a69bdcb8475/Derivates/88ee877ae326bbc50cba6bd0f59085881046a077 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/b4241a1beeb4544dfd991a69bdcb8475/Derivates/88ee877ae326bbc50cba6bd0f59085881046a077 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/b4241a1beeb4544dfd991a69bdcb8475/Derivates/88ee877ae326bbc50cba6bd0f59085881046a077 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Winter Radish, Citrus and Cashew Cream (Matthew Kenney) Metric</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <p class="core-tile__description-subline">No ratings</p>
+        <p class="core-tile__description-subline">15h 35 min</p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r760972" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r760972" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r760972" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r760972" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r760972" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r758664" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="82" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r758664" published-at="2022-01-14T06:00:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r758664
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/b4241a1beeb4544dfd991a69bdcb8475/Derivates/0df0f90e30d04333390ac08da6852a7f9cdc3c85" alt="Winter Radish, Citrus and Cashew Cream (Matthew Kenney)" title="Winter Radish, Citrus and Cashew Cream (Matthew Kenney)" sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px" srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/b4241a1beeb4544dfd991a69bdcb8475/Derivates/0df0f90e30d04333390ac08da6852a7f9cdc3c85 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/b4241a1beeb4544dfd991a69bdcb8475/Derivates/0df0f90e30d04333390ac08da6852a7f9cdc3c85 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/b4241a1beeb4544dfd991a69bdcb8475/Derivates/0df0f90e30d04333390ac08da6852a7f9cdc3c85 552w">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Winter Radish, Citrus and Cashew Cream (Matthew Kenney)"
+            title="Winter Radish, Citrus and Cashew Cream (Matthew Kenney)"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/b4241a1beeb4544dfd991a69bdcb8475/Derivates/0df0f90e30d04333390ac08da6852a7f9cdc3c85"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/b4241a1beeb4544dfd991a69bdcb8475/Derivates/0df0f90e30d04333390ac08da6852a7f9cdc3c85 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/b4241a1beeb4544dfd991a69bdcb8475/Derivates/0df0f90e30d04333390ac08da6852a7f9cdc3c85 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/b4241a1beeb4544dfd991a69bdcb8475/Derivates/0df0f90e30d04333390ac08da6852a7f9cdc3c85 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Winter Radish, Citrus and Cashew Cream (Matthew Kenney)</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__counter">5.0</span>
+        </core-rating>
+        <p class="core-tile__description-subline">15h 35 min</p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r758664" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r758664" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r758664" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r758664" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r758664" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r106789" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="83" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r106789" published-at="2022-01-11T03:43:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r106789
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/EAC04961-6126-47D1-9B18-90CD1F0EFEFC/Derivates/1BDB8DDA-5003-4E3F-8F65-FBD3801E677E" alt="Banoffee arctic roll" title="Banoffee arctic roll" sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px" srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/EAC04961-6126-47D1-9B18-90CD1F0EFEFC/Derivates/1BDB8DDA-5003-4E3F-8F65-FBD3801E677E 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/EAC04961-6126-47D1-9B18-90CD1F0EFEFC/Derivates/1BDB8DDA-5003-4E3F-8F65-FBD3801E677E 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/EAC04961-6126-47D1-9B18-90CD1F0EFEFC/Derivates/1BDB8DDA-5003-4E3F-8F65-FBD3801E677E 552w">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Banoffee arctic roll"
+            title="Banoffee arctic roll"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/EAC04961-6126-47D1-9B18-90CD1F0EFEFC/Derivates/1BDB8DDA-5003-4E3F-8F65-FBD3801E677E"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/EAC04961-6126-47D1-9B18-90CD1F0EFEFC/Derivates/1BDB8DDA-5003-4E3F-8F65-FBD3801E677E 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/EAC04961-6126-47D1-9B18-90CD1F0EFEFC/Derivates/1BDB8DDA-5003-4E3F-8F65-FBD3801E677E 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/EAC04961-6126-47D1-9B18-90CD1F0EFEFC/Derivates/1BDB8DDA-5003-4E3F-8F65-FBD3801E677E 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Banoffee arctic roll</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--half"></span>
+          <span class="core-rating__point "></span>
+          <span class="core-rating__counter">3.6</span>
+        </core-rating>
+        <p class="core-tile__description-subline">28h 40 min</p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r106789" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r106789" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r106789" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r106789" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r106789" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r106761" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="84" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r106761" published-at="2022-01-11T03:43:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r106761
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/FA7952AA-D336-42F9-808A-A0FCFBACF730/Derivates/60789855-5E7F-417D-B564-1618B544D224" alt="Blueberry frozen yoghurt cheesecake" title="Blueberry frozen yoghurt cheesecake" sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px" srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/FA7952AA-D336-42F9-808A-A0FCFBACF730/Derivates/60789855-5E7F-417D-B564-1618B544D224 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/FA7952AA-D336-42F9-808A-A0FCFBACF730/Derivates/60789855-5E7F-417D-B564-1618B544D224 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/FA7952AA-D336-42F9-808A-A0FCFBACF730/Derivates/60789855-5E7F-417D-B564-1618B544D224 552w">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Blueberry frozen yoghurt cheesecake"
+            title="Blueberry frozen yoghurt cheesecake"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/FA7952AA-D336-42F9-808A-A0FCFBACF730/Derivates/60789855-5E7F-417D-B564-1618B544D224"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/FA7952AA-D336-42F9-808A-A0FCFBACF730/Derivates/60789855-5E7F-417D-B564-1618B544D224 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/FA7952AA-D336-42F9-808A-A0FCFBACF730/Derivates/60789855-5E7F-417D-B564-1618B544D224 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/FA7952AA-D336-42F9-808A-A0FCFBACF730/Derivates/60789855-5E7F-417D-B564-1618B544D224 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Blueberry frozen yoghurt cheesecake</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point "></span>
+          <span class="core-rating__counter">3.9</span>
+        </core-rating>
+        <p class="core-tile__description-subline">14h 55 min</p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r106761" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r106761" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r106761" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r106761" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r106761" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r754574" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="85" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r754574" published-at="2022-01-11T03:43:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r754574
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAAEElEQVR42mN8/58BCBghFAAizwPfChHPggAAAABJRU5ErkJggg==" alt="Chai latte parfait" title="Chai latte parfait" data-src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/45c5cdee-58c6-446d-a79d-aaca403a4ae2/Derivates/a77a71f2-91a2-42a2-abfa-89ae67901283" data-srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/45c5cdee-58c6-446d-a79d-aaca403a4ae2/Derivates/a77a71f2-91a2-42a2-abfa-89ae67901283 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/45c5cdee-58c6-446d-a79d-aaca403a4ae2/Derivates/a77a71f2-91a2-42a2-abfa-89ae67901283 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/45c5cdee-58c6-446d-a79d-aaca403a4ae2/Derivates/a77a71f2-91a2-42a2-abfa-89ae67901283 552w" data-sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Chai latte parfait"
+            title="Chai latte parfait"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/45c5cdee-58c6-446d-a79d-aaca403a4ae2/Derivates/a77a71f2-91a2-42a2-abfa-89ae67901283"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/45c5cdee-58c6-446d-a79d-aaca403a4ae2/Derivates/a77a71f2-91a2-42a2-abfa-89ae67901283 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/45c5cdee-58c6-446d-a79d-aaca403a4ae2/Derivates/a77a71f2-91a2-42a2-abfa-89ae67901283 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/45c5cdee-58c6-446d-a79d-aaca403a4ae2/Derivates/a77a71f2-91a2-42a2-abfa-89ae67901283 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Chai latte parfait</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__counter">5.0</span>
+        </core-rating>
+        <p class="core-tile__description-subline">29h 5 min</p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r754574" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r754574" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r754574" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r754574" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r754574" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r737186" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="86" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r737186" published-at="2022-01-11T03:43:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r737186
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAAEElEQVR42mN8/58BCBghFAAizwPfChHPggAAAABJRU5ErkJggg==" alt="Creamy yoghurt ice cream" title="Creamy yoghurt ice cream" data-src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/6d483d6dae16e16e5fc590462891b7c1/Derivates/70c61f580971e94207438cd6c03f4113557896da" data-srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/6d483d6dae16e16e5fc590462891b7c1/Derivates/70c61f580971e94207438cd6c03f4113557896da 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/6d483d6dae16e16e5fc590462891b7c1/Derivates/70c61f580971e94207438cd6c03f4113557896da 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/6d483d6dae16e16e5fc590462891b7c1/Derivates/70c61f580971e94207438cd6c03f4113557896da 552w" data-sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Creamy yoghurt ice cream"
+            title="Creamy yoghurt ice cream"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/6d483d6dae16e16e5fc590462891b7c1/Derivates/70c61f580971e94207438cd6c03f4113557896da"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/6d483d6dae16e16e5fc590462891b7c1/Derivates/70c61f580971e94207438cd6c03f4113557896da 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/6d483d6dae16e16e5fc590462891b7c1/Derivates/70c61f580971e94207438cd6c03f4113557896da 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/6d483d6dae16e16e5fc590462891b7c1/Derivates/70c61f580971e94207438cd6c03f4113557896da 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Creamy yoghurt ice cream</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--half"></span>
+          <span class="core-rating__counter">4.7</span>
+        </core-rating>
+        <p class="core-tile__description-subline">24h 10 min</p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r737186" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r737186" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r737186" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r737186" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r737186" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r106787" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="87" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r106787" published-at="2022-01-11T03:43:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r106787
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAAEElEQVR42mN8/58BCBghFAAizwPfChHPggAAAABJRU5ErkJggg==" alt="Gin and tonic sorbet with cucumber" title="Gin and tonic sorbet with cucumber" data-src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/4BDA9ED1-18C5-40B7-A32F-5E0D9C818DE2/Derivates/6A13C004-2379-4D04-A117-99896C157985" data-srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/4BDA9ED1-18C5-40B7-A32F-5E0D9C818DE2/Derivates/6A13C004-2379-4D04-A117-99896C157985 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/4BDA9ED1-18C5-40B7-A32F-5E0D9C818DE2/Derivates/6A13C004-2379-4D04-A117-99896C157985 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/4BDA9ED1-18C5-40B7-A32F-5E0D9C818DE2/Derivates/6A13C004-2379-4D04-A117-99896C157985 552w" data-sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Gin and tonic sorbet with cucumber"
+            title="Gin and tonic sorbet with cucumber"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/4BDA9ED1-18C5-40B7-A32F-5E0D9C818DE2/Derivates/6A13C004-2379-4D04-A117-99896C157985"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/4BDA9ED1-18C5-40B7-A32F-5E0D9C818DE2/Derivates/6A13C004-2379-4D04-A117-99896C157985 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/4BDA9ED1-18C5-40B7-A32F-5E0D9C818DE2/Derivates/6A13C004-2379-4D04-A117-99896C157985 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/4BDA9ED1-18C5-40B7-A32F-5E0D9C818DE2/Derivates/6A13C004-2379-4D04-A117-99896C157985 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Gin and tonic sorbet with cucumber</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point "></span>
+          <span class="core-rating__counter">4.2</span>
+        </core-rating>
+        <p class="core-tile__description-subline">12h </p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r106787" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r106787" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r106787" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r106787" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r106787" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r106786" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="88" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r106786" published-at="2022-01-11T03:43:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r106786
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAAEElEQVR42mN8/58BCBghFAAizwPfChHPggAAAABJRU5ErkJggg==" alt="Honey ice cream" title="Honey ice cream" data-src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/4C12D6F9-3B4F-409B-8D83-7FE87411276E/Derivates/B75B7E95-D951-4133-8D5E-4156365F5340" data-srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/4C12D6F9-3B4F-409B-8D83-7FE87411276E/Derivates/B75B7E95-D951-4133-8D5E-4156365F5340 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/4C12D6F9-3B4F-409B-8D83-7FE87411276E/Derivates/B75B7E95-D951-4133-8D5E-4156365F5340 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/4C12D6F9-3B4F-409B-8D83-7FE87411276E/Derivates/B75B7E95-D951-4133-8D5E-4156365F5340 552w" data-sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Honey ice cream"
+            title="Honey ice cream"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/4C12D6F9-3B4F-409B-8D83-7FE87411276E/Derivates/B75B7E95-D951-4133-8D5E-4156365F5340"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/4C12D6F9-3B4F-409B-8D83-7FE87411276E/Derivates/B75B7E95-D951-4133-8D5E-4156365F5340 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/4C12D6F9-3B4F-409B-8D83-7FE87411276E/Derivates/B75B7E95-D951-4133-8D5E-4156365F5340 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/4C12D6F9-3B4F-409B-8D83-7FE87411276E/Derivates/B75B7E95-D951-4133-8D5E-4156365F5340 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Honey ice cream</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__counter">4.8</span>
+        </core-rating>
+        <p class="core-tile__description-subline">17h 45 min</p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r106786" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r106786" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r106786" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r106786" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r106786" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r737188" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="89" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r737188" published-at="2022-01-11T03:43:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r737188
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAAEElEQVR42mN8/58BCBghFAAizwPfChHPggAAAABJRU5ErkJggg==" alt="Maple pecan ice cream" title="Maple pecan ice cream" data-src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/b7371e6de0c68dca5f96fed7335cdac5/Derivates/eea0750843b99333d19bf8b45b90b8a4a8108144" data-srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/b7371e6de0c68dca5f96fed7335cdac5/Derivates/eea0750843b99333d19bf8b45b90b8a4a8108144 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/b7371e6de0c68dca5f96fed7335cdac5/Derivates/eea0750843b99333d19bf8b45b90b8a4a8108144 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/b7371e6de0c68dca5f96fed7335cdac5/Derivates/eea0750843b99333d19bf8b45b90b8a4a8108144 552w" data-sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Maple pecan ice cream"
+            title="Maple pecan ice cream"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/b7371e6de0c68dca5f96fed7335cdac5/Derivates/eea0750843b99333d19bf8b45b90b8a4a8108144"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/b7371e6de0c68dca5f96fed7335cdac5/Derivates/eea0750843b99333d19bf8b45b90b8a4a8108144 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/b7371e6de0c68dca5f96fed7335cdac5/Derivates/eea0750843b99333d19bf8b45b90b8a4a8108144 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/b7371e6de0c68dca5f96fed7335cdac5/Derivates/eea0750843b99333d19bf8b45b90b8a4a8108144 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Maple pecan ice cream</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--half"></span>
+          <span class="core-rating__point "></span>
+          <span class="core-rating__counter">3.5</span>
+        </core-rating>
+        <p class="core-tile__description-subline">26h 30 min</p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r737188" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r737188" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r737188" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r737188" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r737188" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r106795" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="90" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r106795" published-at="2022-01-11T03:43:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r106795
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAAEElEQVR42mN8/58BCBghFAAizwPfChHPggAAAABJRU5ErkJggg==" alt="Matcha and mango frozen yoghurt" title="Matcha and mango frozen yoghurt" data-src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/C6FA691A-EB9D-4440-8FD9-3387E384AB70/Derivates/93BAC9D5-25F9-4435-AE47-675E98A069EE" data-srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/C6FA691A-EB9D-4440-8FD9-3387E384AB70/Derivates/93BAC9D5-25F9-4435-AE47-675E98A069EE 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/C6FA691A-EB9D-4440-8FD9-3387E384AB70/Derivates/93BAC9D5-25F9-4435-AE47-675E98A069EE 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/C6FA691A-EB9D-4440-8FD9-3387E384AB70/Derivates/93BAC9D5-25F9-4435-AE47-675E98A069EE 552w" data-sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Matcha and mango frozen yoghurt"
+            title="Matcha and mango frozen yoghurt"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/C6FA691A-EB9D-4440-8FD9-3387E384AB70/Derivates/93BAC9D5-25F9-4435-AE47-675E98A069EE"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/C6FA691A-EB9D-4440-8FD9-3387E384AB70/Derivates/93BAC9D5-25F9-4435-AE47-675E98A069EE 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/C6FA691A-EB9D-4440-8FD9-3387E384AB70/Derivates/93BAC9D5-25F9-4435-AE47-675E98A069EE 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/C6FA691A-EB9D-4440-8FD9-3387E384AB70/Derivates/93BAC9D5-25F9-4435-AE47-675E98A069EE 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Matcha and mango frozen yoghurt</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__counter">5.0</span>
+        </core-rating>
+        <p class="core-tile__description-subline">18h 25 min</p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r106795" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r106795" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r106795" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r106795" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r106795" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r106808" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="91" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r106808" published-at="2022-01-11T03:43:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r106808
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAAEElEQVR42mN8/58BCBghFAAizwPfChHPggAAAABJRU5ErkJggg==" alt="Mocha and hazelnut ice cream with toasted marshmallows" title="Mocha and hazelnut ice cream with toasted marshmallows" data-src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/ABE3D541-2950-4D80-971F-B0E27D671FA6/Derivates/62AEFAB9-55C1-454E-A913-1A0F62184F77" data-srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/ABE3D541-2950-4D80-971F-B0E27D671FA6/Derivates/62AEFAB9-55C1-454E-A913-1A0F62184F77 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/ABE3D541-2950-4D80-971F-B0E27D671FA6/Derivates/62AEFAB9-55C1-454E-A913-1A0F62184F77 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/ABE3D541-2950-4D80-971F-B0E27D671FA6/Derivates/62AEFAB9-55C1-454E-A913-1A0F62184F77 552w" data-sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Mocha and hazelnut ice cream with toasted marshmallows"
+            title="Mocha and hazelnut ice cream with toasted marshmallows"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/ABE3D541-2950-4D80-971F-B0E27D671FA6/Derivates/62AEFAB9-55C1-454E-A913-1A0F62184F77"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/ABE3D541-2950-4D80-971F-B0E27D671FA6/Derivates/62AEFAB9-55C1-454E-A913-1A0F62184F77 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/ABE3D541-2950-4D80-971F-B0E27D671FA6/Derivates/62AEFAB9-55C1-454E-A913-1A0F62184F77 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/ABE3D541-2950-4D80-971F-B0E27D671FA6/Derivates/62AEFAB9-55C1-454E-A913-1A0F62184F77 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Mocha and hazelnut ice cream with toasted marshmallows</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point "></span>
+          <span class="core-rating__counter">4.0</span>
+        </core-rating>
+        <p class="core-tile__description-subline">18h 30 min</p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r106808" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r106808" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r106808" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r106808" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r106808" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r106838" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="92" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r106838" published-at="2022-01-11T03:43:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r106838
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAAEElEQVR42mN8/58BCBghFAAizwPfChHPggAAAABJRU5ErkJggg==" alt="Neapolitan ice cream cake" title="Neapolitan ice cream cake" data-src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/BAAEB36D-986D-453A-B891-D6925CDF6E61/Derivates/26826001-33EB-463A-8FE9-45772D9E9D2C" data-srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/BAAEB36D-986D-453A-B891-D6925CDF6E61/Derivates/26826001-33EB-463A-8FE9-45772D9E9D2C 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/BAAEB36D-986D-453A-B891-D6925CDF6E61/Derivates/26826001-33EB-463A-8FE9-45772D9E9D2C 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/BAAEB36D-986D-453A-B891-D6925CDF6E61/Derivates/26826001-33EB-463A-8FE9-45772D9E9D2C 552w" data-sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Neapolitan ice cream cake"
+            title="Neapolitan ice cream cake"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/BAAEB36D-986D-453A-B891-D6925CDF6E61/Derivates/26826001-33EB-463A-8FE9-45772D9E9D2C"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/BAAEB36D-986D-453A-B891-D6925CDF6E61/Derivates/26826001-33EB-463A-8FE9-45772D9E9D2C 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/BAAEB36D-986D-453A-B891-D6925CDF6E61/Derivates/26826001-33EB-463A-8FE9-45772D9E9D2C 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/BAAEB36D-986D-453A-B891-D6925CDF6E61/Derivates/26826001-33EB-463A-8FE9-45772D9E9D2C 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Neapolitan ice cream cake</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--half"></span>
+          <span class="core-rating__counter">4.6</span>
+        </core-rating>
+        <p class="core-tile__description-subline">21h 10 min</p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r106838" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r106838" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r106838" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r106838" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r106838" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r118779" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="93" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r118779" published-at="2022-01-11T03:43:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r118779
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAAEElEQVR42mN8/58BCBghFAAizwPfChHPggAAAABJRU5ErkJggg==" alt="Non-dairy Mexican chocolate ice cream" title="Non-dairy Mexican chocolate ice cream" data-src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/596022B2-8D40-49FB-BC35-403B39F0BB8F/Derivates/37D3893B-8541-4FBA-B5CD-28A6EF046CAD" data-srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/596022B2-8D40-49FB-BC35-403B39F0BB8F/Derivates/37D3893B-8541-4FBA-B5CD-28A6EF046CAD 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/596022B2-8D40-49FB-BC35-403B39F0BB8F/Derivates/37D3893B-8541-4FBA-B5CD-28A6EF046CAD 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/596022B2-8D40-49FB-BC35-403B39F0BB8F/Derivates/37D3893B-8541-4FBA-B5CD-28A6EF046CAD 552w" data-sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Non-dairy Mexican chocolate ice cream"
+            title="Non-dairy Mexican chocolate ice cream"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/596022B2-8D40-49FB-BC35-403B39F0BB8F/Derivates/37D3893B-8541-4FBA-B5CD-28A6EF046CAD"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/596022B2-8D40-49FB-BC35-403B39F0BB8F/Derivates/37D3893B-8541-4FBA-B5CD-28A6EF046CAD 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/596022B2-8D40-49FB-BC35-403B39F0BB8F/Derivates/37D3893B-8541-4FBA-B5CD-28A6EF046CAD 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/596022B2-8D40-49FB-BC35-403B39F0BB8F/Derivates/37D3893B-8541-4FBA-B5CD-28A6EF046CAD 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Non-dairy Mexican chocolate ice cream</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__counter">4.9</span>
+        </core-rating>
+        <p class="core-tile__description-subline">12h 20 min</p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r118779" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r118779" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r118779" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r118779" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r118779" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r754575" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="94" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r754575" published-at="2022-01-11T03:43:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r754575
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAAEElEQVR42mN8/58BCBghFAAizwPfChHPggAAAABJRU5ErkJggg==" alt="Roasted banana affogato" title="Roasted banana affogato" data-src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/dd2d19b6-4ee0-411f-ad62-fa7356f35447/Derivates/61ad8d2e-0615-4bcd-b5e8-2b3424c650ed" data-srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/dd2d19b6-4ee0-411f-ad62-fa7356f35447/Derivates/61ad8d2e-0615-4bcd-b5e8-2b3424c650ed 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/dd2d19b6-4ee0-411f-ad62-fa7356f35447/Derivates/61ad8d2e-0615-4bcd-b5e8-2b3424c650ed 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/dd2d19b6-4ee0-411f-ad62-fa7356f35447/Derivates/61ad8d2e-0615-4bcd-b5e8-2b3424c650ed 552w" data-sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Roasted banana affogato"
+            title="Roasted banana affogato"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/dd2d19b6-4ee0-411f-ad62-fa7356f35447/Derivates/61ad8d2e-0615-4bcd-b5e8-2b3424c650ed"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/dd2d19b6-4ee0-411f-ad62-fa7356f35447/Derivates/61ad8d2e-0615-4bcd-b5e8-2b3424c650ed 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/dd2d19b6-4ee0-411f-ad62-fa7356f35447/Derivates/61ad8d2e-0615-4bcd-b5e8-2b3424c650ed 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/dd2d19b6-4ee0-411f-ad62-fa7356f35447/Derivates/61ad8d2e-0615-4bcd-b5e8-2b3424c650ed 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Roasted banana affogato</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__counter">5.0</span>
+        </core-rating>
+        <p class="core-tile__description-subline">29h </p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r754575" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r754575" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r754575" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r754575" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r754575" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r737187" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="95" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r737187" published-at="2022-01-11T03:43:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r737187
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAAEElEQVR42mN8/58BCBghFAAizwPfChHPggAAAABJRU5ErkJggg==" alt="Rum and raisin ice cream" title="Rum and raisin ice cream" data-src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/697e4708d88b08e74ab6f1e61f5277c0/Derivates/030488c81e71a99064004a118d05288fa642ac94" data-srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/697e4708d88b08e74ab6f1e61f5277c0/Derivates/030488c81e71a99064004a118d05288fa642ac94 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/697e4708d88b08e74ab6f1e61f5277c0/Derivates/030488c81e71a99064004a118d05288fa642ac94 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/697e4708d88b08e74ab6f1e61f5277c0/Derivates/030488c81e71a99064004a118d05288fa642ac94 552w" data-sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Rum and raisin ice cream"
+            title="Rum and raisin ice cream"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/697e4708d88b08e74ab6f1e61f5277c0/Derivates/030488c81e71a99064004a118d05288fa642ac94"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/697e4708d88b08e74ab6f1e61f5277c0/Derivates/030488c81e71a99064004a118d05288fa642ac94 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/697e4708d88b08e74ab6f1e61f5277c0/Derivates/030488c81e71a99064004a118d05288fa642ac94 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/697e4708d88b08e74ab6f1e61f5277c0/Derivates/030488c81e71a99064004a118d05288fa642ac94 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Rum and raisin ice cream</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__counter">5.0</span>
+        </core-rating>
+        <p class="core-tile__description-subline">24h 10 min</p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r737187" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r737187" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r737187" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r737187" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r737187" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r106796" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="96" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r106796" published-at="2022-01-11T03:43:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r106796
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAAEElEQVR42mN8/58BCBghFAAizwPfChHPggAAAABJRU5ErkJggg==" alt="Vanilla mascarpone parfait" title="Vanilla mascarpone parfait" data-src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/FDE546BE-792E-48A0-B749-2736B9D9DC61/Derivates/12600263-7FB3-4576-B54B-8FA7B74E7C46" data-srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/FDE546BE-792E-48A0-B749-2736B9D9DC61/Derivates/12600263-7FB3-4576-B54B-8FA7B74E7C46 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/FDE546BE-792E-48A0-B749-2736B9D9DC61/Derivates/12600263-7FB3-4576-B54B-8FA7B74E7C46 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/FDE546BE-792E-48A0-B749-2736B9D9DC61/Derivates/12600263-7FB3-4576-B54B-8FA7B74E7C46 552w" data-sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Vanilla mascarpone parfait"
+            title="Vanilla mascarpone parfait"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/FDE546BE-792E-48A0-B749-2736B9D9DC61/Derivates/12600263-7FB3-4576-B54B-8FA7B74E7C46"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/FDE546BE-792E-48A0-B749-2736B9D9DC61/Derivates/12600263-7FB3-4576-B54B-8FA7B74E7C46 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/FDE546BE-792E-48A0-B749-2736B9D9DC61/Derivates/12600263-7FB3-4576-B54B-8FA7B74E7C46 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/FDE546BE-792E-48A0-B749-2736B9D9DC61/Derivates/12600263-7FB3-4576-B54B-8FA7B74E7C46 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Vanilla mascarpone parfait</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--half"></span>
+          <span class="core-rating__counter">4.7</span>
+        </core-rating>
+        <p class="core-tile__description-subline">2h 40 min</p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r106796" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r106796" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r106796" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r106796" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r106796" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r106809" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="97" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r106809" published-at="2022-01-11T03:43:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r106809
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAAEElEQVR42mN8/58BCBghFAAizwPfChHPggAAAABJRU5ErkJggg==" alt="Watermelon and chia yoghurt pops" title="Watermelon and chia yoghurt pops" data-src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/740138A2-0766-42D7-9D80-39F8C23A57A2/Derivates/146A474C-0E12-4752-A245-43BBEBFAB6D6" data-srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/740138A2-0766-42D7-9D80-39F8C23A57A2/Derivates/146A474C-0E12-4752-A245-43BBEBFAB6D6 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/740138A2-0766-42D7-9D80-39F8C23A57A2/Derivates/146A474C-0E12-4752-A245-43BBEBFAB6D6 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/740138A2-0766-42D7-9D80-39F8C23A57A2/Derivates/146A474C-0E12-4752-A245-43BBEBFAB6D6 552w" data-sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Watermelon and chia yoghurt pops"
+            title="Watermelon and chia yoghurt pops"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/740138A2-0766-42D7-9D80-39F8C23A57A2/Derivates/146A474C-0E12-4752-A245-43BBEBFAB6D6"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/740138A2-0766-42D7-9D80-39F8C23A57A2/Derivates/146A474C-0E12-4752-A245-43BBEBFAB6D6 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/740138A2-0766-42D7-9D80-39F8C23A57A2/Derivates/146A474C-0E12-4752-A245-43BBEBFAB6D6 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/740138A2-0766-42D7-9D80-39F8C23A57A2/Derivates/146A474C-0E12-4752-A245-43BBEBFAB6D6 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Watermelon and chia yoghurt pops</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point "></span>
+          <span class="core-rating__counter">4.2</span>
+        </core-rating>
+        <p class="core-tile__description-subline">5h 45 min</p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r106809" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r106809" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r106809" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r106809" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r106809" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r250205" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="98" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r250205" published-at="2022-01-10T02:01:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r250205
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAAEElEQVR42mN8/58BCBghFAAizwPfChHPggAAAABJRU5ErkJggg==" alt="Apricot chicken risotto" title="Apricot chicken risotto" data-src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/9F581F2A-9691-4740-81FD-C74092E5B959/Derivates/A28D0935-157B-46AC-9293-253ECEF197A7" data-srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/9F581F2A-9691-4740-81FD-C74092E5B959/Derivates/A28D0935-157B-46AC-9293-253ECEF197A7 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/9F581F2A-9691-4740-81FD-C74092E5B959/Derivates/A28D0935-157B-46AC-9293-253ECEF197A7 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/9F581F2A-9691-4740-81FD-C74092E5B959/Derivates/A28D0935-157B-46AC-9293-253ECEF197A7 552w" data-sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Apricot chicken risotto"
+            title="Apricot chicken risotto"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/9F581F2A-9691-4740-81FD-C74092E5B959/Derivates/A28D0935-157B-46AC-9293-253ECEF197A7"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/9F581F2A-9691-4740-81FD-C74092E5B959/Derivates/A28D0935-157B-46AC-9293-253ECEF197A7 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/9F581F2A-9691-4740-81FD-C74092E5B959/Derivates/A28D0935-157B-46AC-9293-253ECEF197A7 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/9F581F2A-9691-4740-81FD-C74092E5B959/Derivates/A28D0935-157B-46AC-9293-253ECEF197A7 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Apricot chicken risotto</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--half"></span>
+          <span class="core-rating__counter">4.3</span>
+        </core-rating>
+        <p class="core-tile__description-subline"> 30 min</p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r250205" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r250205" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r250205" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r250205" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r250205" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r591624" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="99" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r591624" published-at="2022-01-10T02:01:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r591624
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAAEElEQVR42mN8/58BCBghFAAizwPfChHPggAAAABJRU5ErkJggg==" alt="Chicken and spinach enchiladas" title="Chicken and spinach enchiladas" data-src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/83504c06-dbb1-40c6-aac5-31117ac37482/Derivates/3b37c541-aa36-466e-975b-b175b58859d7" data-srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/83504c06-dbb1-40c6-aac5-31117ac37482/Derivates/3b37c541-aa36-466e-975b-b175b58859d7 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/83504c06-dbb1-40c6-aac5-31117ac37482/Derivates/3b37c541-aa36-466e-975b-b175b58859d7 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/83504c06-dbb1-40c6-aac5-31117ac37482/Derivates/3b37c541-aa36-466e-975b-b175b58859d7 552w" data-sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Chicken and spinach enchiladas"
+            title="Chicken and spinach enchiladas"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/83504c06-dbb1-40c6-aac5-31117ac37482/Derivates/3b37c541-aa36-466e-975b-b175b58859d7"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/83504c06-dbb1-40c6-aac5-31117ac37482/Derivates/3b37c541-aa36-466e-975b-b175b58859d7 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/83504c06-dbb1-40c6-aac5-31117ac37482/Derivates/3b37c541-aa36-466e-975b-b175b58859d7 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/83504c06-dbb1-40c6-aac5-31117ac37482/Derivates/3b37c541-aa36-466e-975b-b175b58859d7 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Chicken and spinach enchiladas</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--half"></span>
+          <span class="core-rating__counter">4.7</span>
+        </core-rating>
+        <p class="core-tile__description-subline"> 40 min</p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r591624" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r591624" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r591624" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r591624" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r591624" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+<core-tile class="core-tile--expanded" id="r536578" data-page-number="4" data-queryid="c27151877cb3b5a114da694f036b158c" data-position="100" data-index="recipes-prod-by-publishedAt-desc" data-recipe-id="r536578" published-at="2022-01-10T02:01:00Z">
+  <a class="link--alt" href="/recipes/recipe/en-GB/r536578
+    ">
+    <div class="core-tile__image-wrapper">
+        <img class="core-tile__image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAAEElEQVR42mN8/58BCBghFAAizwPfChHPggAAAABJRU5ErkJggg==" alt="Chicken teriyaki" title="Chicken teriyaki" data-src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/A9067242-BAAE-4BA1-BB71-58730F9D49FF/Derivates/e092b3ac-b231-4053-9ae3-8e33c425eb83" data-srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/A9067242-BAAE-4BA1-BB71-58730F9D49FF/Derivates/e092b3ac-b231-4053-9ae3-8e33c425eb83 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/A9067242-BAAE-4BA1-BB71-58730F9D49FF/Derivates/e092b3ac-b231-4053-9ae3-8e33c425eb83 378w,
+                       https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/A9067242-BAAE-4BA1-BB71-58730F9D49FF/Derivates/e092b3ac-b231-4053-9ae3-8e33c425eb83 552w" data-sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px">
+        
+        <noscript>
+          <img
+            class="core-tile__image"
+            alt="Chicken teriyaki"
+            title="Chicken teriyaki"
+          
+            src="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/A9067242-BAAE-4BA1-BB71-58730F9D49FF/Derivates/e092b3ac-b231-4053-9ae3-8e33c425eb83"
+            srcset="https://assets.tmecosys.com/image/upload/t_web276x230/img/recipe/ras/Assets/A9067242-BAAE-4BA1-BB71-58730F9D49FF/Derivates/e092b3ac-b231-4053-9ae3-8e33c425eb83 276w,https://assets.tmecosys.com/image/upload/t_web378x315/img/recipe/ras/Assets/A9067242-BAAE-4BA1-BB71-58730F9D49FF/Derivates/e092b3ac-b231-4053-9ae3-8e33c425eb83 378w,
+                    https://assets.tmecosys.com/image/upload/t_web276x230%402x/img/recipe/ras/Assets/A9067242-BAAE-4BA1-BB71-58730F9D49FF/Derivates/e092b3ac-b231-4053-9ae3-8e33c425eb83 552w"
+            sizes="(min-width: 1333px) 276px,(min-width: 1024px) 286px,(min-width: 768px) 220px, 140px"
+          
+          >
+        </noscript>
+    </div>
+    <div class="core-tile__description-wrapper">
+      <div class="core-tile__description">
+        <core-ellipsis>
+          <p class="core-tile__description-text" style="overflow: hidden; text-overflow: ellipsis; -moz-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2;">Chicken teriyaki</p>
+        </core-ellipsis>
+            <button class="core-tile__trigger authenticated-only context-menu-trigger" aria-label="open context menu" type="button" aria-expanded="false" aria-haspopup="true"></button>
+      </div>
+        <core-rating class="core-rating--small">
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--full"></span>
+          <span class="core-rating__point core-rating__point--half"></span>
+          <span class="core-rating__counter">4.5</span>
+        </core-rating>
+        <p class="core-tile__description-subline"> 20 min</p>
+    </div>
+  </a>
+  <core-context-menu trigger-class="context-menu-trigger">
+    <ul class="core-dropdown-list">
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-cook-today/r536578" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-bookmark/r536578" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/organize/en-GB/transclude/manage-custom-list/r536578" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/planning/en-GB/transclude/manage-add-to-myweek/r536578" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li>
+        <core-transclude href="/shopping/en-GB/partial/add-to-shopping-list/r536578" prevent-page-reload="true" on="context-menu-open" context="core-context-menu">
+        </core-transclude>
+      </li>
+      <li data-error="401" data-redirect-param="redirectAfterLogin" style="display: none">
+        <a href="/profile/en-GB/login?redirectAfterLogin=%2Fsearch%2Fen-GB%3Fcontext%3Drecipes%26languages%3Den%26sortby%3DpublishedAt%26page%3D4" class="core-dropdown-list__item"><span class="icon" aria-hidden="true">refresh</span>Refresh login</a>
+      </li>
+    </ul>
+  </core-context-menu>
+</core-tile>
+</core-tiles-list>
+        <core-lazy-loading></core-lazy-loading>
+      </search-results-list>
+      <div class="g-container loader-box">
+        <core-loader class="core-loader--spinner core-loader__middle"></core-loader>
+      </div>
+      <core-error-page>
+        <div class="core-error-page__content search-no-results-for-query " hidden="hidden">
+          <img class="core-error-page__image" src="https://patternlib-all.prod.external.eu-tm-prod.vorwerk-digital.com/404-error-186f5227e6e8b72eb17484c13ab18e73.svg" alt="">
+          <p class="core-error-page__header ">Sorry, no results found for “”. </p>
+          <p class="core-error-page__subheader ">Please alter your search term or adjust filters.</p>
+        </div>
+      </core-error-page>
+      <core-error-page>
+        <div class="core-error-page__content search-no-results " hidden="hidden">
+          <img class="core-error-page__image" src="https://patternlib-all.prod.external.eu-tm-prod.vorwerk-digital.com/404-error-186f5227e6e8b72eb17484c13ab18e73.svg" alt="">
+          <p class="core-error-page__header ">Sorry, no results found for this combination of filters.</p>
+          <p class="core-error-page__subheader ">Please check your search filters, incl. your default search filters in your profile.</p>
+        </div>
+      </core-error-page>
+    </search-save-page-number-on-exit>
+    <div class="g-container loader-box">
+      <core-loader class="core-loader--spinner core-loader__after"></core-loader>
+    </div>
+  </div>
+</div>
+<core-error-page class="core-error-page">
+  <div class="core-error-page__content search-error-page" hidden="hidden">
+    <img class="core-error-page__image" src="https://patternlib-all.prod.external.eu-tm-prod.vorwerk-digital.com/404-error-186f5227e6e8b72eb17484c13ab18e73.svg" alt="">
+    <p class="core-error-page__header">
+      tmde.general.error.headline.
+    </p>
+    <p class="core-error-page__subheader">
+      tmde.general.error.text.
+    </p>
+      <a href="/foundation/en-GB" class="button--primary core-error-page__link" aria-label="Link to the home page">Explore</a>
+  </div>
+</core-error-page>
+
+<filter-modal class="filters-modal" default-query="countries=gb">
+  <core-modal class="core-modal" hidden="">
+    <div class="core-modal__wrapper">
+      <div class="core-modal__container" reset-height="" role="dialog" aria-modal="true">
+        <div class="core-modal__header">
+          <button class="core-modal__close filters-modal__close" aria-label="Close Modal" tabindex="-1"></button>
+          <h4>Filters</h4>
+          <button class="core-modal__reset button--inline-primary" tabindex="-1">Reset</button>
+        </div>
+        <core-scrollbar class="core-modal__content" fadeout="false" custom="true">
+          <div class="core-scrollbar__content">
+            <other-filters class="other-filters" hidden="">
+              <hr class="separator--silver-60 filter-modal__separator">
+              <div class="section-header">
+                <div class="section-header__title">
+                  <h4>Other filters</h4>
+                </div>
+              </div>
+              <selected-badges class="selected-badges">
+              </selected-badges>
+            </other-filters>
+<multi-select class="multi-select" facet="categories" aria-expanded="false" hidden="">
+  <hr class="separator--silver-60 filter-modal__separator">
+  <div class="section-header">
+    <div class="section-header__title">
+      <h4>Category</h4>
+    </div>
+    <div class="section-header__count" hidden=""></div>
+  </div>
+  <div class="multi-select__wrapper" aria-live="assertive">
+                  
+                  
+  </div>
+    <button class="multi-select__toggle button--inline-primary sr-only" tabindex="-1">
+      <span class="multi-select__label multi-select__label--collapsed">Show all categories</span>
+      <span class="multi-select__label multi-select__label--expanded">Close categories</span>
+    </button>
+</multi-select>
+              <searchable-filter data-filter-type="ingredients" hidden="">
+                <hr class="separator--silver-60 filter-modal__separator">
+                <div class="section-header">
+                  <div class="section-header__title">
+                    <h4>Ingredients</h4>
+                    <span id="ingredient-hint" class="section-header__hint" aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"></span>
+                    <core-tooltip for="ingredient-hint" placement="top" hidden="">
+                      <h6 class="core-tooltip__title">Ingredients</h6>
+                      <p>You can use a "-" while typing ingredients to exclude certain ingredients e.g. -salt. </p>
+                      <button class="core-tooltip__close" aria-label="x"></button>
+                    <div class="core-tooltip__arrow"></div></core-tooltip>
+                  </div>
+                </div>
+              
+                <div class="searchable-filter__badges-wrapper">
+                    <span>No selected ingredients</span>
+                  <selected-badges class="selected-badges">
+                  </selected-badges>
+                </div>
+              
+                <core-autocomplete class="searchable-filter__autocomplete" role="combobox" aria-expanded="false" hidden="">
+                  <core-resettable-input class="core-autocomplete__resettable-input">
+                    <input class="core-resettable-input__input core-autocomplete__input" type="search" name="ingredients" aria-label="Search for ingredients..." placeholder="Search for ingredients..." aria-autocomplete="list" aria-haspopup="listbox" role="searchbox">
+                    <button class="core-resettable-input__reset core-autocomplete__reset" type="button"></button>
+                  </core-resettable-input>
+                <ul class="core-autocomplete__suggestions" role="listbox"></ul></core-autocomplete>
+              </searchable-filter>
+              <searchable-filter data-filter-type="tags" hidden="">
+                <hr class="separator--silver-60 filter-modal__separator">
+                <div class="section-header">
+                  <div class="section-header__title">
+                    <h4>Tags</h4>
+                    <span id="tags-hint" class="section-header__hint" aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"></span>
+                    <core-tooltip for="tags-hint" placement="top" hidden="">
+                      <h6 class="core-tooltip__title">Tags</h6>
+                      <p>To exclude certain tags from your search, type "-" and then the tag name, e.g. "-difficult". 
+                    As not all recipes are tagged, excluding a certain one will reduce the number of results rather than show the opposite.</p>
+                      <button class="core-tooltip__close" aria-label="x"></button>
+                    <div class="core-tooltip__arrow"></div></core-tooltip>
+                  </div>
+                </div>
+              
+                <div class="searchable-filter__badges-wrapper">
+                    <span>No selected tags</span>
+                  <selected-badges class="selected-badges">
+                  </selected-badges>
+                </div>
+              
+                <core-autocomplete class="searchable-filter__autocomplete" role="combobox" aria-expanded="false" hidden="">
+                  <core-resettable-input class="core-autocomplete__resettable-input">
+                    <input class="core-resettable-input__input core-autocomplete__input" type="search" name="tags" aria-label="Search for tags..." placeholder="Search for tags..." aria-autocomplete="list" aria-haspopup="listbox" role="searchbox">
+                    <button class="core-resettable-input__reset core-autocomplete__reset" type="button"></button>
+                  </core-resettable-input>
+                <ul class="core-autocomplete__suggestions" role="listbox"></ul></core-autocomplete>
+              </searchable-filter>
+              <div hidden="">
+                <hr class="separator--silver-60 filter-modal__separator">
+                <div class="section-header">
+                  <div class="section-header__title">
+                    <h4>Difficulty</h4>
+                  </div>
+                </div>
+                <search-toggle-button facet="difficulty">
+                  <core-toggle-button class="core-toggle-button">
+                  </core-toggle-button>
+                </search-toggle-button>
+              </div>
+              
+              <div>
+                <hr class="separator--silver-60 filter-modal__separator">
+                <div class="section-header">
+                  <div class="section-header__title">
+                    <h4>Preparation time</h4>
+                  </div>
+                </div>
+                <search-toggle-button facet="preparationTime">
+                  <core-toggle-button class="core-toggle-button">
+                    <div class="core-toggle-button__item" tabindex="0">
+                      <input class="sr-only" type="checkbox" name="preparationTime" value="900" id="preparationTime-900" tabindex="-1">
+                      <label for="preparationTime-900"><div class="core-toggle-button__text">≤ 15</div></label>
+                    </div>
+                    <div class="core-toggle-button__item" tabindex="0">
+                      <input class="sr-only" type="checkbox" name="preparationTime" value="1800" id="preparationTime-1800" tabindex="-1">
+                      <label for="preparationTime-1800"><div class="core-toggle-button__text">≤ 30</div></label>
+                    </div>
+                    <div class="core-toggle-button__item" tabindex="0">
+                      <input class="sr-only" type="checkbox" name="preparationTime" value="2700" id="preparationTime-2700" tabindex="-1">
+                      <label for="preparationTime-2700"><div class="core-toggle-button__text">≤ 45</div></label>
+                    </div>
+                  </core-toggle-button>
+                </search-toggle-button>
+              </div>
+              <div>
+                <hr class="separator--silver-60 filter-modal__separator">
+                <div class="section-header">
+                  <div class="section-header__title">
+                    <h4>Total time</h4>
+                  </div>
+                </div>
+                <search-toggle-button facet="totalTime">
+                  <core-toggle-button class="core-toggle-button">
+                    <div class="core-toggle-button__item" tabindex="0">
+                      <input class="sr-only" type="checkbox" name="totalTime" value="900" id="totalTime-900" tabindex="-1">
+                      <label for="totalTime-900"><div class="core-toggle-button__text">≤ 15</div></label>
+                    </div>
+                    <div class="core-toggle-button__item" tabindex="0">
+                      <input class="sr-only" type="checkbox" name="totalTime" value="1800" id="totalTime-1800" tabindex="-1">
+                      <label for="totalTime-1800"><div class="core-toggle-button__text">≤ 30</div></label>
+                    </div>
+                    <div class="core-toggle-button__item" tabindex="0">
+                      <input class="sr-only" type="checkbox" name="totalTime" value="2700" id="totalTime-2700" tabindex="-1">
+                      <label for="totalTime-2700"><div class="core-toggle-button__text">≤ 45</div></label>
+                    </div>
+                  </core-toggle-button>
+                </search-toggle-button>
+              </div>
+              <div>
+                <hr class="separator--silver-60 filter-modal__separator">
+                <div class="section-header">
+                  <div class="section-header__title">
+                    <h4>Portions</h4>
+                    <span id="portions-hint" class="section-header__hint" aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"></span>
+                    <core-tooltip for="portions-hint" placement="top" hidden="">
+                      <h6 class="core-tooltip__title">Portions</h6>
+                      <p>The activated portion filter excludes all other serving sizes like pieces, slices, bottles, and more.</p>
+                      <button class="core-tooltip__close" aria-label="x"></button>
+                    <div class="core-tooltip__arrow"></div></core-tooltip>
+                  </div>
+                </div>
+                <div class="section-description">
+                </div>
+                <search-toggle-button facet="portions">
+                  <core-toggle-button class="core-toggle-button">
+                    <div class="core-toggle-button__item" tabindex="0">
+                      <input class="sr-only" type="checkbox" name="portion" value="1" id="portion-1" tabindex="-1">
+                      <label for="portion-1"><div class="core-toggle-button__text">1</div></label>
+                    </div>
+                    <div class="core-toggle-button__item" tabindex="0">
+                      <input class="sr-only" type="checkbox" name="portion" value="2" id="portion-2" tabindex="-1">
+                      <label for="portion-2"><div class="core-toggle-button__text">2</div></label>
+                    </div>
+                    <div class="core-toggle-button__item" tabindex="0">
+                      <input class="sr-only" type="checkbox" name="portion" value="4" id="portion-4" tabindex="-1">
+                      <label for="portion-4"><div class="core-toggle-button__text">4</div></label>
+                    </div>
+                    <div class="core-toggle-button__item" tabindex="0">
+                      <input class="sr-only" type="checkbox" name="portion" value="6" id="portion-6" tabindex="-1">
+                      <label for="portion-6"><div class="core-toggle-button__text">6</div></label>
+                    </div>
+                    <div class="core-toggle-button__item" tabindex="0">
+                      <input class="sr-only" type="checkbox" name="portion" value="8" id="portion-8" tabindex="-1">
+                      <label for="portion-8"><div class="core-toggle-button__text">8+</div></label>
+                    </div>
+                  </core-toggle-button>
+                </search-toggle-button>
+              </div>
+              <multi-select class="multi-select" facet="ratings" aria-expanded="true">
+                <hr class="separator--silver-60 filter-modal__separator">
+                <div class="section-header">
+                  <div class="section-header__title">
+                    <h4>Ratings</h4>
+                  </div>
+                  <div class="section-header__count"></div>
+                </div>
+                <div class="multi-select__wrapper" aria-live="assertive">
+                  
+                </div>
+                <button class="multi-select__toggle button--inline-primary sr-only" tabindex="-1" hidden=""></button>
+              </multi-select>
+              <div>
+                <hr class="separator--silver-60 filter-modal__separator">
+                <div class="section-header">
+                  <div class="section-header__title">
+                    <h4>Thermomix® version</h4>
+                    <span id="default-filters--tmv" class="section-header__hint" aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"></span>
+                    <core-tooltip for="default-filters--tmv" placement="top" hidden="">
+                      <h6 class="core-tooltip__title">Save your default search filter</h6>
+                      <p>You can save your default filters in your Cookidoo® profile. Doing this will load search every time with the same filters.
+                      <a class="link--subsequent" href="      /community/profile/en-GB
+                        ">Update default filter</a>
+                      </p>
+                      <button class="core-tooltip__close" aria-label="x"></button>
+                    <div class="core-tooltip__arrow"></div></core-tooltip>
+                    
+                    
+                    
+                    
+                  </div>
+                </div>
+                <search-toggle-button facet="tmv">
+                  <core-toggle-button class="core-toggle-button">
+                    <div class="core-toggle-button__item" tabindex="0">
+                      <input class="sr-only" type="checkbox" name="tmv" value="TM6only" id="TM6only" tabindex="-1">
+                      <label for="TM6only"><div class="core-toggle-button__text">TM6 only</div></label>
+                    </div>
+                    <div class="core-toggle-button__item" tabindex="0">
+                      <input class="sr-only" type="checkbox" name="tmv" value="TM6" id="TM6" tabindex="-1">
+                      <label for="TM6"><div class="core-toggle-button__text">TM6</div></label>
+                    </div>
+                    <div class="core-toggle-button__item" tabindex="0">
+                      <input class="sr-only" type="checkbox" name="tmv" value="TM5" id="TM5" tabindex="-1">
+                      <label for="TM5"><div class="core-toggle-button__text">TM5</div></label>
+                    </div>
+                    <div class="core-toggle-button__item" tabindex="0">
+                      <input class="sr-only" type="checkbox" name="tmv" value="TM31" id="TM31" tabindex="-1">
+                      <label for="TM31"><div class="core-toggle-button__text">TM31</div></label>
+                    </div>
+                  </core-toggle-button>
+                </search-toggle-button>
+              </div>
+              <div hidden="">
+                <hr class="separator--silver-60 filter-modal__separator">
+                <div class="section-header">
+                  <div class="section-header__title">
+                    <h4>Thermomix Friend</h4>
+                  </div>
+                </div>
+                <search-toggle-button facet="additionalDevices">
+                  <core-toggle-button class="core-toggle-button">
+                  </core-toggle-button>
+                </search-toggle-button>
+              </div>
+<multi-select class="multi-select" facet="languages" aria-expanded="false" hidden="">
+  <hr class="separator--silver-60 filter-modal__separator">
+  <div class="section-header">
+    <div class="section-header__title">
+      <h4>Language</h4>
+      <span id="default-filters--languages" class="section-header__hint" aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"></span>
+      <core-tooltip for="default-filters--languages" placement="top" hidden="">
+        <h6 class="core-tooltip__title">Save your default search filter</h6>
+        <p>You can save your default filters in your Cookidoo® profile. Doing this will load search every time with the same filters.
+        <a class="link--subsequent" href="      /community/profile/en-GB
+          ">Update default filter</a>
+        </p>
+        <button class="core-tooltip__close" aria-label="x"></button>
+      <div class="core-tooltip__arrow"></div></core-tooltip>
+      
+      
+      
+      
+    </div>
+    <div class="section-header__count" hidden=""></div>
+  </div>
+  <div class="multi-select__wrapper" aria-live="assertive">
+                    
+                    
+  </div>
+    <button class="multi-select__toggle button--inline-primary sr-only" tabindex="-1">
+      <span class="multi-select__label multi-select__label--collapsed">Show all languages</span>
+      <span class="multi-select__label multi-select__label--expanded">Close languages</span>
+    </button>
+</multi-select>
+<multi-select class="multi-select" facet="countries" aria-expanded="false" hidden="">
+  <hr class="separator--silver-60 filter-modal__separator">
+  <div class="section-header">
+    <div class="section-header__title">
+      <h4>Country or region</h4>
+      <span id="default-filters--countries" class="section-header__hint" aria-expanded="false" aria-haspopup="true" role="button" tabindex="0"></span>
+      <core-tooltip for="default-filters--countries" placement="top" hidden="">
+        <h6 class="core-tooltip__title">Save your default search filter</h6>
+        <p>You can save your default filters in your Cookidoo® profile. Doing this will load search every time with the same filters.
+        <a class="link--subsequent" href="      /community/profile/en-GB
+          ">Update default filter</a>
+        </p>
+        <button class="core-tooltip__close" aria-label="x"></button>
+      <div class="core-tooltip__arrow"></div></core-tooltip>
+      
+      
+      
+      
+    </div>
+    <div class="section-header__count" hidden=""></div>
+  </div>
+  <div class="multi-select__wrapper" aria-live="assertive">
+                      
+                      
+  </div>
+    <button class="multi-select__toggle button--inline-primary sr-only" tabindex="-1">
+      <span class="multi-select__label multi-select__label--collapsed">Show all countries or regions</span>
+      <span class="multi-select__label multi-select__label--expanded">Close country or region</span>
+    </button>
+</multi-select>
+                  <default-filters-info class="default-filters-info">
+                    <h6 class="default-filters-info__title">Save your default search filter</h6>
+                    <p>
+                      You can save your default filters in your Cookidoo® profile. Doing this will load search every time with the same filters.
+                      <a class="link--subsequent" href="        /community/profile/en-GB
+                        ">Update default filter</a>
+                    </p>
+                  </default-filters-info>
+                  <no-filters-available class="core-modal__no-filters">
+                    There are no filters available for your current selection. Please alter your search term.
+                  </no-filters-available>
+          </div>
+        </core-scrollbar>
+        <div class="core-modal__footer">
+          <button class="core-modal__submit button--primary">Show  result</button>
+        </div>
+      </div>
+    </div>
+  </core-modal>
+</filter-modal>
+
+<core-toast aria-live="assertive"><p class="core-toast__text"></p><p class="core-toast__text"></p></core-toast>
+<search-algolia id="algoliaApi" app-id="3TA8NT85XJ" client-key="MTNiNmVjODYwNDJkZjQ1NjViZTkyMjZhYzg4NTRlNDE5ZTgzMzE3YTI0MDBlMTA0OWUwNTgyZGI1N2ZjYzlmNHZhbGlkVW50aWw9MTY0NDczOTQ4OCZyZXN0cmljdEluZGljZXM9JTVCJTIyc3VnZ2VzdGlvbnMtcmVjaXBlcy1wcm9kLWZyJTIyJTJDJTIyY2F0ZWdvcnktc3VnZ2VzdGlvbnMtcHJvZC1mciUyMiUyQyUyMnJlY2lwZXMtcHJvZC1mciUyMiUyQyUyMnJlY2lwZXMtcHJvZC1mci1ieS1wdWJsaXNoZWRBdC1kZXNjJTIyJTJDJTIycmVjaXBlcy1wcm9kLWZyLWJ5LXRpdGxlLWFzYyUyMiUyQyUyMnJlY2lwZXMtcHJvZC1mci1ieS10b3RhbFRpbWUtYXNjJTIyJTJDJTIycmVjaXBlcy1wcm9kLWZyLWJ5LXByZXBhcmF0aW9uVGltZS1hc2MlMjIlMkMlMjJyZWNpcGVzLXByb2QtZnItYnktcmF0aW5nLWRlc2MlMjIlMkMlMjJyZWNpcGVzLXByb2QtZnItYnktdHJlbmQlMjIlMkMlMjJjb2xsZWN0aW9ucy1wcm9kLWZyJTIyJTJDJTIyY29sbGVjdGlvbnMtcHJvZC1mci1ieS1wdWJsaXNoZWRBdC1kZXNjJTIyJTJDJTIyY29sbGVjdGlvbnMtcHJvZC1mci1ieS10aXRsZS1hc2MlMjIlMkMlMjJlZGl0b3JpYWwtcHJvZC1mciUyMiUyQyUyMmVkaXRvcmlhbC1wcm9kLWZyLWJ5LXRpdGxlLWFzYyUyMiUyQyUyMnN1Z2dlc3Rpb25zLXJlY2lwZXMtcHJvZC1kZSUyMiUyQyUyMmNhdGVnb3J5LXN1Z2dlc3Rpb25zLXByb2QtZGUlMjIlMkMlMjJyZWNpcGVzLXByb2QtZGUlMjIlMkMlMjJyZWNpcGVzLXByb2QtZGUtYnktcHVibGlzaGVkQXQtZGVzYyUyMiUyQyUyMnJlY2lwZXMtcHJvZC1kZS1ieS10aXRsZS1hc2MlMjIlMkMlMjJyZWNpcGVzLXByb2QtZGUtYnktdG90YWxUaW1lLWFzYyUyMiUyQyUyMnJlY2lwZXMtcHJvZC1kZS1ieS1wcmVwYXJhdGlvblRpbWUtYXNjJTIyJTJDJTIycmVjaXBlcy1wcm9kLWRlLWJ5LXJhdGluZy1kZXNjJTIyJTJDJTIycmVjaXBlcy1wcm9kLWRlLWJ5LXRyZW5kJTIyJTJDJTIyY29sbGVjdGlvbnMtcHJvZC1kZSUyMiUyQyUyMmNvbGxlY3Rpb25zLXByb2QtZGUtYnktcHVibGlzaGVkQXQtZGVzYyUyMiUyQyUyMmNvbGxlY3Rpb25zLXByb2QtZGUtYnktdGl0bGUtYXNjJTIyJTJDJTIyZWRpdG9yaWFsLXByb2QtZGUlMjIlMkMlMjJlZGl0b3JpYWwtcHJvZC1kZS1ieS10aXRsZS1hc2MlMjIlMkMlMjJzdWdnZXN0aW9ucy1yZWNpcGVzLXByb2QlMjIlMkMlMjJjYXRlZ29yeS1zdWdnZXN0aW9ucy1wcm9kJTIyJTJDJTIycmVjaXBlcy1wcm9kJTIyJTJDJTIycmVjaXBlcy1wcm9kLWJ5LXB1Ymxpc2hlZEF0LWRlc2MlMjIlMkMlMjJyZWNpcGVzLXByb2QtYnktdGl0bGUtYXNjJTIyJTJDJTIycmVjaXBlcy1wcm9kLWJ5LXRvdGFsVGltZS1hc2MlMjIlMkMlMjJyZWNpcGVzLXByb2QtYnktcHJlcGFyYXRpb25UaW1lLWFzYyUyMiUyQyUyMnJlY2lwZXMtcHJvZC1ieS1yYXRpbmctZGVzYyUyMiUyQyUyMnJlY2lwZXMtcHJvZC1ieS10cmVuZCUyMiUyQyUyMmNvbGxlY3Rpb25zLXByb2QlMjIlMkMlMjJjb2xsZWN0aW9ucy1wcm9kLWJ5LXB1Ymxpc2hlZEF0LWRlc2MlMjIlMkMlMjJjb2xsZWN0aW9ucy1wcm9kLWJ5LXRpdGxlLWFzYyUyMiUyQyUyMmVkaXRvcmlhbC1wcm9kJTIyJTJDJTIyZWRpdG9yaWFsLXByb2QtYnktdGl0bGUtYXNjJTIyJTVE" algolia-env="prod"></search-algolia>
+  <search-infinite-scroll id="scrollResults" threshold="300">
+  </search-infinite-scroll>
+  
+  <core-footer lang="en-GB">
+  <footer class="core-footer__content">
+    <span class="core-footer__copyright">© Copyright 2022</span>
+    <nav>
+      <ul class="core-footer__links">
+          <li class="authenticated-only">
+            <a class="core-footer__link link--alt" href="/profile/en-GB/legal-agreements/terms-of-use">
+              Terms of Service
+            </a>
+          </li>
+          <li class="authenticated-only">
+            <a class="core-footer__link link--alt" href="/profile/en-GB/legal-agreements/privacy-policy">
+              Privacy Policy
+            </a>
+          </li>
+          <li class="unauthenticated-only">
+            <a class="core-footer__link link--alt" href="/commerce/en-GB/terms-of-use">
+              Terms of Service
+            </a>
+          </li>
+          <li class="unauthenticated-only">
+            <a class="core-footer__link link--alt" href="/commerce/en-GB/privacy-policy">
+              Privacy Policy
+            </a>
+          </li>
+        <li>
+          <a class="core-footer__link link--alt" href="/foundation/en-GB/disclaimer">Disclaimer</a>
+        </li>
+        <li>
+          <a class="core-footer__link link--alt" href="/foundation/en-GB/imprint">Imprint</a>
+        </li>
+        <li>
+          <a class="core-footer__link link--alt" href="/foundation/en-GB/cookie-policy">Cookies</a>
+        </li>
+      </ul>
+    </nav>
+    <core-fetch-modal href="/foundation/en-GB/partials/footer-modal?page=/search/{lang}">
+      <button class="core-footer__language-btn" aria-label="change language">
+        <span class="icon" aria-hidden="true">language</span>
+        <span class="core-footer__current-lang">English</span>
+        <core-loader class="core-loader--dots"><span class="core-loader__dot"></span><span class="core-loader__dot"></span><span class="core-loader__dot"></span></core-loader>
+      </button>
+    </core-fetch-modal>
+  </footer>
+</core-footer>
+
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="1564e1c1-6883-45d5-9106-1321ce28cc47" data-document-language="true"></script>
+<script>
+  function OptanonWrapper() {
+    window.dispatchEvent(new CustomEvent('consentChange', { detail: { onetrustActiveGroups: window.OnetrustActiveGroups } }))
+  }
+</script>
+
+<script>
+  setTimeout(function() { if (window.Optanon) Optanon.LoadBanner() }, 2000);
+</script>
+
+<core-tos-privacy-update update-url="/profile/en-GB/legal-agreements/updates" button-text="Accept" default-headline="Our Privacy Policy or Terms of Service have changed." autoload-condition="html.is-authenticated"></core-tos-privacy-update>
+<core-feedback url-api="/commerce/api/subscriptions/churn-feedback" url-modal="/commerce/en-GB/subscriptions/churn-feedback" url-api-skip="/commerce/api/subscriptions/churn-feedback/skip" message-success="Your feedback has been sent. Thank you very much!" message-error="An error has occurred, your feedback could not be sent. Please try again." call-on-init="true">
+</core-feedback>
+
+
+  <script src="https://patternlib-all.prod.external.eu-tm-prod.vorwerk-digital.com/algoliasearch-20.10.6-f857abfeea3d030bd90133fcf178f839.js" crossorigin="anonymous"></script>
+  <script src="https://patternlib-all.prod.external.eu-tm-prod.vorwerk-digital.com/pl-core-20.10.6-a6b14aa5b193c8c8807fe58d0357d75f.js" crossorigin="anonymous"></script>
+  <script src="https://searchpublic-search.external.eu-tm-prod.vorwerk-digital.com/bundle-44dfe65f594ba4b0c44d57e16568eb8a.js" crossorigin="anonymous"></script>
+  <script>
+    window.___FINT_HOME_DOCS___ = {"_links":{"curies":{"_links":{}},"self":{"_links":{}},"tmde2:search":{"_links":{}},"tmde2:recipe-details":{"_links":{"fint:details":{"href":"/recipes/recipe{/lang}/{id}"}}},"tmde2:recipe-feed":{"_links":{}},"tmde2:collection-feed":{"_links":{}},"tmde2:organize":{"_links":{"fint:transclude-manage-bookmark-icon":{"href":"/organize/{lang}/transclude/manage-bookmark-icon/{recipeId}"},"fint:transclude-manage-bookmark":{"href":"/organize/{lang}/transclude/manage-bookmark/{recipeId}"},"fint:transclude-move-to-list-modal":{"href":"/organize/{lang}/transclude/move-to-list-modal"},"fint:transclude-manage-custom-list":{"href":"/organize/{lang}/transclude/manage-custom-list/{recipeId}"},"fint:web-my-recipes":{"href":"/organize/{lang}/my-recipes"},"fint:transclude-create-custom-list-modal":{"href":"/organize/{lang}/transclude/create-custom-list-modal/{recipeId}"},"fint:transclude-save-collection":{"href":"/organize/{lang}/transclude/save-collection/{collectionId}"},"fint:transclude-manage-custom-list-modal":{"href":"/organize/{lang}/transclude/manage-custom-list-modal/{recipeId}"}}},"tmde2:collections":{"_links":{"fint:collection-details":{"href":"/collection/{lang}/p/{code}"}}},"tmde2:planning":{"_links":{"fint:web-my-week":{"href":"/planning/{lang}/my-week"},"fint:transclude-manage-cook-today":{"href":"/planning/{lang}/transclude/manage-cook-today/{recipeId}{?recipeSource}"},"fint:api-my-day":{"href":"/planning/{lang}/api/my-day"},"fint:transclude-planned-recipes":{"href":"/planning/{lang}/transclude/planned-recipes/{dayKey}"},"fint:transclude-manage-add-to-my-week":{"href":"/planning/{lang}/transclude/manage-add-to-myweek/{recipeId}{?recipeSource}"}}},"tmde2:foundation":{"_links":{"fint:explore-web":{"href":"/foundation/{lang}"},"fint:explore-nwot":{"href":"/foundation/{lang}/device"},"fint:explore-mobile":{"href":"/foundation/{lang}/mobile"},"fint:membership":{"href":"/foundation/{lang}/membership"},"fint:get-subscription":{"href":"/foundation/{lang}/get-subscription"},"fint:help":{"href":"/foundation/{lang}/help"},"fint:imprint":{"href":"/foundation/{lang}/imprint"},"fint:disclaimer":{"href":"/foundation/{lang}/disclaimer"},"fint:thermomix-compatibility":{"href":"/foundation/{lang}/thermomix-compatibility"},"fint:thermomix-friend":{"href":"/foundation/{lang}/thermomix-friend"},"fint:footer":{"href":"/foundation/{lang}/partials/footer{?page}"},"fint:components":{"href":"/foundation/{lang}/partials/components{?ids}"},"fint:recommendation-tiles":{"href":"/foundation/{lang}/partials/recommendation-tiles/{dcid}"},"fint:cookidoo-served":{"href":"/foundation/{lang}/partials/cookidoo-served/{dcid}"}}},"tmde2:foundation-tutorials":{"_links":{}},"tmde2:customer-devices":{"_links":{}},"tmde2:profile":{"_links":{"fint:register-page":{"href":"/profile/{lang}/register"},"fint:change-country-modal":{"href":"/profile/{lang}/profile/change-country"},"fint:onboarding-confirmation":{"href":"/profile/{lang}/onboarding/confirmation"},"fint:change-profile":{"href":"/profile/{lang}/profile"},"fint:privacy-policy-modal":{"href":"/profile/{lang}/modal/privacy-policy"},"fint:account-overview":{"href":"/profile/{lang}/account"},"fint:privacy-policy":{"href":"/profile/{lang}/legal-agreements/privacy-policy"},"fint:api-user":{"href":"/profile/api/user"},"fint:login-button":{"href":"/profile/{lang}/includes/login-button{?authProxyLogoutUri,redirectAfterLogin}"},"fint:terms-of-use":{"href":"/profile/{lang}/legal-agreements/terms-of-use"},"fint:recipe-banner":{"href":"/profile/{lang}/includes/recipe-banner{?recipeId}"},"fint:purchased-content":{"href":"/profile/{lang}/bought-collections"},"fint:onboarding-consents":{"href":"/profile/{lang}/onboarding/consents"},"fint:my-devices-page":{"href":"/profile/{lang}/my-devices{?success,action}"},"fint:terms-of-use-modal":{"href":"/profile/{lang}/modal/terms-of-use"},"fint:api-user-consents":{"href":"/profile/api/user-consents{?type}"},"fint:select-device":{"href":"/profile/{lang}/my-devices/add"},"fint:add-device-version":{"href":"/profile/{lang}/my-devices/add/{deviceVersion}{?success}"},"fint:subscription-page":{"href":"/profile/{lang}/membership{?paymentUpdated}"},"fint:legal-agreement-updates":{"href":"/profile/{lang}/legal-agreements/updates"},"fint:onboarding-welcome":{"href":"/profile/{lang}/onboarding/welcome"},"fint:login":{"href":"/profile/{lang}/login{?redirectAfterLogin}"},"fint:notification-settings":{"href":"/profile/{lang}/notification-settings{?show}"}}},"tmde2:ownership":{"_links":{}},"tmde2:commerce":{"_links":{}},"tmde2:usagebox":{"_links":{}},"tmde2:auth":{"_links":{}},"tmde2:pantry":{"_links":{"fint:home":{"href":"/shopping/{lang}{?excludeComponent}"},"fint:add-recipes":{"href":"/shopping/{lang}/add-recipes"},"fint:remove-recipe":{"href":"/shopping/{lang}/recipe/{recipeID}"},"fint:add-ingredients":{"href":"/shopping/{lang}/ingredients"},"fint:remove-ingredient":{"href":"/shopping/{lang}/ingredients/{ingredientID}"},"fint:add-additional-items":{"href":"/shopping/{lang}/additional-items"},"fint:bucket":{"href":"/shopping/{lang}/partial/bucket{?limit,type}"},"fint:add-to-shopping-list":{"href":"/shopping/{lang}/partial/add-to-shopping-list/{recipeID}{?source}"}}},"tmde2:rating":{"_links":{}},"tmde2:recommender":{"_links":{}},"tmde2:tm6-snapshot":{"_links":{}},"tmde2:community-profile":{"_links":{"fint:user-private-profile":{"href":"/community/profile/{lang}"},"fint:user-basic-info":{"href":"/community/profile/{lang}/me"},"fint:user-preferences-partial":{"href":"/community/profile/{lang}/partials/user-preferences"},"fint:avatars-list":{"href":"/community/profile/{lang}/partials/avatars"}}},"tmde2:customer-recipes":{"_links":{}},"tmde2:cookidoo-served":{"_links":{}},"tmde2:open-id-connect-discovery":{"_links":{}}}}
+    window.___AVAILABLE_TMV___ = ["TM6only","TM6","TM5","TM31"]
+  </script>
+  
+  <script>
+    (function () {
+      !function (e, a, t, n, s, i, c) {
+      e.AlgoliaAnalyticsObject = s, e.aa = e.aa || function () { (e.aa.queue = e.aa.queue || []).push(arguments) }, i = a.createElement(t),
+      c = a.getElementsByTagName(t)[0], i.async = 1, i.src = "https://searchpublic-search.external.eu-tm-prod.vorwerk-digital.com/searchinsights@2.0.1.min-f7f37597a9f1309a261c13b1550e019e.js", c.parentNode.insertBefore(i, c)
+      }(window, document, "script", 0, "aa");
+  
+      function clickHandler (e) {
+        const tile = e.target.closest('core-tile')
+        if (e.target.matches('core-tile .core-tile__trigger') || e.target.matches('core-tile > .link--alt *')) {
+          window.aa("clickedObjectIDsAfterSearch", {
+            index: tile.getAttribute('data-index'),
+            eventName: "click-result",
+            objectIDs: [tile.getAttribute('id')],
+            queryID: tile.getAttribute('data-queryid'),
+            positions: [parseInt(tile.getAttribute('data-position'))]
+          })
+        } else if (e.target.matches('core-tile > core-context-menu *')) {
+          window.aa('convertedObjectIDsAfterSearch', {
+            index: tile.getAttribute('data-index'),
+            eventName: 'conversion',
+            queryID: tile.getAttribute('data-queryid'),
+            objectIDs: [tile.getAttribute('id')]
+          })
+        }
+      }
+  
+      function _aaInit (opts = {}) {
+        const algoliaAPI = document.getElementById('algoliaApi')
+  
+        window.aa('init', {
+          appId: algoliaAPI.getAttribute('app-id'),
+          apiKey: algoliaAPI.getAttribute('client-key'),
+          ...opts
+        });
+      }
+  
+      function initAlgoliaTracking () {
+        _aaInit({ userHasOptedOut: false, useCookie: true })
+        document.addEventListener('click', clickHandler)
+      }
+  
+  
+      let algoliaInsightsInitDone = false
+  
+      function initAlgoliaTrackingOnWeb () {
+        if (algoliaInsightsInitDone) return
+  
+        algoliaInsightsInitDone = true
+        initAlgoliaTracking()
+      }
+  
+      function deinitAlgoliaTracking () {
+        document.removeEventListener('click', clickHandler)
+        _aaInit({ userHasOptedOut: true, useCookie: false })
+        document.cookie = "_ALGOLIA=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/"
+        algoliaInsightsInitDone = false
+      }
+  
+      function isAlgoliaAllowed() {
+        const ALGOLIA_COOKIE_GROUP = 'C0003'
+        return window.OnetrustActiveGroups &&
+          window.OnetrustActiveGroups.indexOf(ALGOLIA_COOKIE_GROUP) >= 0
+      }
+  
+      window.OptanonWrapper = function OptanonWrapper() {
+        if (isAlgoliaAllowed()) initAlgoliaTrackingOnWeb()
+        else deinitAlgoliaTracking()
+      }
+  
+      if (isAlgoliaAllowed()) {
+        initAlgoliaTrackingOnWeb()
+      }
+    })()
+  </script>
+
+
+<script>
+      const mobileTrackingCookieName = 'cookidooMobileAnalyticsEnabled';
+      const performanceCookieGroup = 'C0002';
+      const marketingCookieGroup = 'C0004';
+
+      function getCookie(cName) {
+        const name = cName + "=";
+        const cDecoded = decodeURIComponent(document.cookie);
+        const cArr = cDecoded.split('; ');
+        let res;
+        cArr.forEach(val => {
+          if (val.indexOf(name) === 0) res = val.substring(name.length);
+        })
+        return res
+      }
+
+      function enableAnalyticsStorageConsent() {
+        gtag('consent', 'update', { 'analytics_storage': 'granted' });
+      }
+
+      function disableAnalyticsStorageConsent() {
+        gtag('consent', 'update', { 'analytics_storage': 'denied' });
+      }
+
+      function enableAdsStorageConsent() {
+        gtag('consent', 'update', { 'ad_storage': 'granted' });
+      }
+
+      function disableAdsStorageConsent() {
+        gtag('consent', 'update', { 'ad_storage': 'denied' });
+      }
+
+      function setMobileTracking() {
+        const mobileTrackingConsentValue = getCookie(mobileTrackingCookieName);
+
+        if (mobileTrackingConsentValue) {
+          if (mobileTrackingConsentValue === 'true') {
+            enableAdsStorageConsent();
+            enableAnalyticsStorageConsent();
+          }
+
+          if (mobileTrackingConsentValue === 'false') {
+            disableAdsStorageConsent();
+            disableAnalyticsStorageConsent();
+          }
+        }
+      }
+
+      function setWebTracking(cookieGroups) {
+        if (cookieGroups) {
+          if (cookieGroups.includes(performanceCookieGroup)) {
+            enableAnalyticsStorageConsent();
+          } else {
+            disableAnalyticsStorageConsent();
+          }
+
+          if (cookieGroups.includes(marketingCookieGroup)) {
+            enableAdsStorageConsent();
+          } else {
+            disableAdsStorageConsent();
+          }
+        }
+      }
+
+      function attachOnClickGaEvents() {
+        document.querySelectorAll('[data-ga-event-action]').forEach(node => {
+          // Collect attributes data
+          const eventAction = node.attributes['data-ga-event-action'] && node.attributes['data-ga-event-action'].value;
+          const eventCategory = node.attributes['data-ga-event-category'] && node.attributes['data-ga-event-category'].value;
+          const eventLabel = node.attributes['data-ga-event-label'] && node.attributes['data-ga-event-label'].value;
+          const eventValue = node.attributes['data-ga-event-value'] && node.attributes['data-ga-event-value'].value;
+
+          // Validate
+          if (!eventAction.length) throw Error('Missing ga-event-action value');
+
+          // Prepare event details
+          const details = {};
+          if (eventCategory) details['event_category'] = eventCategory;
+          if (eventLabel) details['event_label'] = eventLabel;
+          if (eventValue) details['value'] = eventValue;
+
+          // Attach click event to gtag
+          node.addEventListener('click', function() {
+            gtag('event', eventAction, details);
+          });
+        });
+      }
+
+      setMobileTracking();
+      setWebTracking(window.OnetrustActiveGroups);
+
+      window.addEventListener('consentChange', function ({ detail }) {
+        setWebTracking(detail.onetrustActiveGroups);
+      });
+
+      window.addEventListener('cookidooMobileAnalyticsChanged', function () {
+        setMobileTracking();
+      });
+
+      attachOnClickGaEvents()
+    </script><div id="onetrust-consent-sdk"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div></div></body></html>
